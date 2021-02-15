@@ -28,10 +28,10 @@
 #endregion
 
 using System;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 using System.Globalization;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json
 {
     /// <summary>
     /// Converts an object to and from JSON.

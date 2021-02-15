@@ -38,17 +38,17 @@ using System.Numerics;
 using System.Text;
 using System.Text.RegularExpressions;
 #endif
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
 using System.Reflection;
 #if !HAVE_LINQ
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
 #endif
 #if HAVE_ADO_NET
 using System.Data.SqlTypes;
 
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities
 {
     internal enum PrimitiveTypeCode
     {

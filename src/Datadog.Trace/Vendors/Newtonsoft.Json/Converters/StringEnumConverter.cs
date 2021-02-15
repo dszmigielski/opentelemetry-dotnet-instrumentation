@@ -34,16 +34,16 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
 #if !HAVE_LINQ
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Converters
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts an <see cref="Enum"/> to and from its name string value.

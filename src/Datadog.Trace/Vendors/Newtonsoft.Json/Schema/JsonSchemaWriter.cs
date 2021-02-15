@@ -29,17 +29,17 @@
 
 using System;
 using System.Collections.Generic;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Linq;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 #if !HAVE_LINQ
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Schema
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Schema
 {
     [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
     internal class JsonSchemaWriter

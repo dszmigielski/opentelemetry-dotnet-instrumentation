@@ -1,7 +1,7 @@
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Datadog.Trace.HttpOverStreams.HttpContent
+namespace OpenTelemetry.Instrumentation.HttpOverStreams.HttpContent
 {
     internal class StreamContent : IHttpContent
     {

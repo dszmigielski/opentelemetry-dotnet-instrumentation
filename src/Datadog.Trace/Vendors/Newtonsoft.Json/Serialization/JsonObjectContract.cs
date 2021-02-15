@@ -32,10 +32,10 @@ using System.Globalization;
 using System.Reflection;
 using System.Runtime.Serialization;
 using System.Security;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Linq;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Serialization
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// Contract details for a <see cref="System.Type"/> used by the <see cref="JsonSerializer"/>.

@@ -1,10 +1,10 @@
 using System;
 using System.Net;
 using System.Threading.Tasks;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace.Agent
+namespace OpenTelemetry.Instrumentation.Agent
 {
     internal class ZipkinApi : IApi
     {

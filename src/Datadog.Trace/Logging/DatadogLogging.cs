@@ -2,14 +2,14 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Util;
-using Datadog.Trace.Vendors.Serilog;
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Events;
-using Datadog.Trace.Vendors.Serilog.Sinks.File;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Util;
+using OpenTelemetry.Instrumentation.Vendors.Serilog;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Sinks.File;
 
-namespace Datadog.Trace.Logging
+namespace OpenTelemetry.Instrumentation.Logging
 {
     internal static class DatadogLogging
     {

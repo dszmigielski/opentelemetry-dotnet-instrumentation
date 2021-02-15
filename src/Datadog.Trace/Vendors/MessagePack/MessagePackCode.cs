@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Datadog.Trace.Vendors.MessagePack
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack
 {
     /// <summary>
     /// https://github.com/msgpack/msgpack/blob/master/spec.md#serialization-type-to-format-conversion

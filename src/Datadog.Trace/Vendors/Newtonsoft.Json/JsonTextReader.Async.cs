@@ -36,10 +36,10 @@ using System.Threading;
 using System.Numerics;
 #endif
 using System.Threading.Tasks;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json
 {
     internal partial class JsonTextReader
     {

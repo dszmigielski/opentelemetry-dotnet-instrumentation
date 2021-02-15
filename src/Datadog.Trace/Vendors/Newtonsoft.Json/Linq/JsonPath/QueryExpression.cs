@@ -9,13 +9,13 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
 #if !HAVE_LINQ
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 #endif
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq.JsonPath
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq.JsonPath
 {
     internal enum QueryOperator
     {

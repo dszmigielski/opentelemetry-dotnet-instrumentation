@@ -20,12 +20,12 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Core.Sinks;
-using Datadog.Trace.Vendors.Serilog.Debugging;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core.Sinks;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Debugging;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Configuration
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Configuration
 {
     /// <summary>
     /// Controls sink configuration.

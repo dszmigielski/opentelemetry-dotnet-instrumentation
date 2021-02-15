@@ -1,13 +1,13 @@
 using System;
 using System.Globalization;
 using System.Text;
-using Datadog.Trace.Abstractions;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Tagging;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Abstractions;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Tagging;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// A Span represents a logical unit of work in the system. It may be
@@ -135,7 +135,7 @@ namespace Datadog.Trace
             // some tags have special meaning
             switch (key)
             {
-                case Trace.Tags.SamplingPriority:
+                case Instrumentation.Tags.SamplingPriority:
                     if (Enum.TryParse(value, out SamplingPriority samplingPriority) &&
                         Enum.IsDefined(typeof(SamplingPriority), samplingPriority))
                     {
@@ -145,8 +145,8 @@ namespace Datadog.Trace
 
                     break;
 #pragma warning disable CS0618 // Type or member is obsolete
-                case Trace.Tags.ForceKeep:
-                case Trace.Tags.ManualKeep:
+                case Instrumentation.Tags.ForceKeep:
+                case Instrumentation.Tags.ManualKeep:
                     if (value?.ToBoolean() == true)
                     {
                         // user-friendly tag to set UserKeep priority
@@ -154,8 +154,8 @@ namespace Datadog.Trace
                     }
 
                     break;
-                case Trace.Tags.ForceDrop:
-                case Trace.Tags.ManualDrop:
+                case Instrumentation.Tags.ForceDrop:
+                case Instrumentation.Tags.ManualDrop:
                     if (value?.ToBoolean() == true)
                     {
                         // user-friendly tag to set UserReject priority
@@ -164,11 +164,11 @@ namespace Datadog.Trace
 
                     break;
 #pragma warning restore CS0618 // Type or member is obsolete
-                case Trace.Tags.Analytics:
+                case Instrumentation.Tags.Analytics:
                     if (string.IsNullOrEmpty(value))
                     {
                         // remove metric
-                        SetMetric(Trace.Tags.Analytics, null);
+                        SetMetric(Instrumentation.Tags.Analytics, null);
                         return this;
                     }
 
@@ -179,12 +179,12 @@ namespace Datadog.Trace
                     if (analyticsSamplingRate == true)
                     {
                         // always sample
-                        SetMetric(Trace.Tags.Analytics, 1.0);
+                        SetMetric(Instrumentation.Tags.Analytics, 1.0);
                     }
                     else if (analyticsSamplingRate == false)
                     {
                         // never sample
-                        SetMetric(Trace.Tags.Analytics, 0.0);
+                        SetMetric(Instrumentation.Tags.Analytics, 0.0);
                     }
                     else if (double.TryParse(
                         value,
@@ -193,19 +193,19 @@ namespace Datadog.Trace
                         out double analyticsSampleRate))
                     {
                         // use specified sample rate
-                        SetMetric(Trace.Tags.Analytics, analyticsSampleRate);
+                        SetMetric(Instrumentation.Tags.Analytics, analyticsSampleRate);
                     }
                     else
                     {
-                        Log.Warning("Value {Value} has incorrect format for tag {TagName}", value, Trace.Tags.Analytics);
+                        Log.Warning("Value {Value} has incorrect format for tag {TagName}", value, Instrumentation.Tags.Analytics);
                     }
 
                     break;
-                case Trace.Tags.Measured:
+                case Instrumentation.Tags.Measured:
                     if (string.IsNullOrEmpty(value))
                     {
                         // Remove metric if value is null
-                        SetMetric(Trace.Tags.Measured, null);
+                        SetMetric(Instrumentation.Tags.Measured, null);
                         return this;
                     }
 
@@ -214,16 +214,16 @@ namespace Datadog.Trace
                     if (measured == true)
                     {
                         // Set metric to true by passing the value of 1.0
-                        SetMetric(Trace.Tags.Measured, 1.0);
+                        SetMetric(Instrumentation.Tags.Measured, 1.0);
                     }
                     else if (measured == false)
                     {
                         // Set metric to false by passing the value of 0.0
-                        SetMetric(Trace.Tags.Measured, 0.0);
+                        SetMetric(Instrumentation.Tags.Measured, 0.0);
                     }
                     else
                     {
-                        Log.Warning("Value {Value} has incorrect format for tag {TagName}", value, Trace.Tags.Measured);
+                        Log.Warning("Value {Value} has incorrect format for tag {TagName}", value, Instrumentation.Tags.Measured);
                     }
 
                     break;
@@ -290,9 +290,9 @@ namespace Datadog.Trace
                     exception = aggregateException.InnerExceptions[0];
                 }
 
-                SetTag(Trace.Tags.ErrorMsg, exception.Message);
-                SetTag(Trace.Tags.ErrorStack, exception.ToString());
-                SetTag(Trace.Tags.ErrorType, exception.GetType().ToString());
+                SetTag(Instrumentation.Tags.ErrorMsg, exception.Message);
+                SetTag(Instrumentation.Tags.ErrorStack, exception.ToString());
+                SetTag(Instrumentation.Tags.ErrorType, exception.GetType().ToString());
             }
         }
 
@@ -305,7 +305,7 @@ namespace Datadog.Trace
         {
             switch (key)
             {
-                case Trace.Tags.SamplingPriority:
+                case Instrumentation.Tags.SamplingPriority:
                     return ((int?)(Context.TraceContext?.SamplingPriority ?? Context.SamplingPriority))?.ToString();
                 default:
                     return Tags.GetTag(key);

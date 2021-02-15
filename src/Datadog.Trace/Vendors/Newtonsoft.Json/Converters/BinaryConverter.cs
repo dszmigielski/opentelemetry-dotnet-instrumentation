@@ -30,13 +30,13 @@
 #if HAVE_LINQ || HAVE_ADO_NET
 using System;
 using System.Globalization;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 using System.Collections.Generic;
 #if HAVE_ADO_NET
 using System.Data.SqlTypes;
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Converters
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a binary value to and from a base 64 string value.

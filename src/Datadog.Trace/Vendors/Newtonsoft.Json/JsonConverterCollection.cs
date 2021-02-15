@@ -32,7 +32,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Collections.ObjectModel;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json
 {
     /// <summary>
     /// Represents a collection of <see cref="JsonConverter"/>.

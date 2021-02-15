@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// Names of HTTP headers that can be used when sending traces to the Trace Agent.

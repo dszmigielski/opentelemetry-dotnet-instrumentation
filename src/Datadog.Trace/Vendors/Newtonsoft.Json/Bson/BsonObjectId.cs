@@ -28,9 +28,9 @@
 #endregion
 
 using System;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Bson
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Bson
 {
     /// <summary>
     /// Represents a BSON Oid (object id).

@@ -1,4 +1,4 @@
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// A set of standard span types that can be used by integrations.

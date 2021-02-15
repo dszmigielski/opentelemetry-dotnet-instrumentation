@@ -12,10 +12,10 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.ExceptionServices;
 using System.Threading;
-using Datadog.Trace.Vendors.MessagePack.Formatters;
-using Datadog.Trace.Vendors.MessagePack.Internal;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Internal;
 
-namespace Datadog.Trace.Vendors.MessagePack
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack
 {
     /// <summary>
     /// Settings related to security, particularly relevant when deserializing data from untrusted sources.

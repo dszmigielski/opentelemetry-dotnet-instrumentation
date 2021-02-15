@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.RuntimeMetrics
+namespace OpenTelemetry.Instrumentation.RuntimeMetrics
 {
     internal interface IRuntimeMetricsListener : IDisposable
     {

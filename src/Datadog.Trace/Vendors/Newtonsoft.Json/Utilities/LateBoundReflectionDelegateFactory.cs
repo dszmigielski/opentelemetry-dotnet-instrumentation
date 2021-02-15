@@ -28,14 +28,14 @@
 #endregion
 
 using System;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
 using System.Reflection;
 
 #if !HAVE_LINQ
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities
 {
     internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Datadog.Trace.Util
+namespace OpenTelemetry.Instrumentation.Util
 {
     internal class StopwatchHelpers
     {

@@ -30,7 +30,7 @@
 using System.Globalization;
 using System.IO;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a raw JSON string.

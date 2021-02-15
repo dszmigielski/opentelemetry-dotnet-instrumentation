@@ -4,11 +4,11 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Datadog.Trace.PlatformHelpers;
-using Datadog.Trace.Util;
-using Datadog.Trace.Vendors.Serilog;
+using OpenTelemetry.Instrumentation.PlatformHelpers;
+using OpenTelemetry.Instrumentation.Util;
+using OpenTelemetry.Instrumentation.Vendors.Serilog;
 
-namespace Datadog.Trace.Configuration
+namespace OpenTelemetry.Instrumentation.Configuration
 {
     /// <summary>
     /// Contains Tracer settings.

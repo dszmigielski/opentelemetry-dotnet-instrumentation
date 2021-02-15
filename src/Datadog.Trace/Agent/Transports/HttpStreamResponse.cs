@@ -2,7 +2,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Datadog.Trace.Agent.Transports
+namespace OpenTelemetry.Instrumentation.Agent.Transports
 {
     internal class HttpStreamResponse : IApiResponse
     {

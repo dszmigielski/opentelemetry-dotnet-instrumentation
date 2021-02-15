@@ -1,4 +1,4 @@
-namespace Datadog.Trace.DiagnosticListeners
+namespace OpenTelemetry.Instrumentation.DiagnosticListeners
 {
     internal interface IDiagnosticManager
     {

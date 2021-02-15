@@ -3,7 +3,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 
-namespace Datadog.Trace.Agent.StreamFactories
+namespace OpenTelemetry.Instrumentation.Agent.StreamFactories
 {
     /// <summary>
     /// Experimental TCP based stream factory for exploring replacing System.Net.Http

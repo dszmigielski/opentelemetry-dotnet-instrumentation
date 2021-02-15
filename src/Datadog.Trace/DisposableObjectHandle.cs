@@ -2,7 +2,7 @@
 using System;
 using System.Runtime.Remoting;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     // Create a wrapper around ObjectHandle to enable a Sponsor for
     // objects stored in the CallContext until the host AppDomain

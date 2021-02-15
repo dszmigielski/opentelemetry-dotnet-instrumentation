@@ -29,7 +29,7 @@
 
 using System;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json
 {
     /// <summary>
     /// The default JSON name table implementation.

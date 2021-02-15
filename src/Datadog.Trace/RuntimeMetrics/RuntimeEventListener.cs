@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics.Tracing;
 using System.Threading;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Vendors.StatsdClient;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Vendors.StatsdClient;
 
-namespace Datadog.Trace.RuntimeMetrics
+namespace OpenTelemetry.Instrumentation.RuntimeMetrics
 {
     internal class RuntimeEventListener : EventListener, IRuntimeMetricsListener
     {

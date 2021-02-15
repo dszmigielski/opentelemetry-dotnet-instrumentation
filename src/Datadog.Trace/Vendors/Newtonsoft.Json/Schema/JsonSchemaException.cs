@@ -30,7 +30,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Schema
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Schema
 {
     /// <summary>
     /// <para>

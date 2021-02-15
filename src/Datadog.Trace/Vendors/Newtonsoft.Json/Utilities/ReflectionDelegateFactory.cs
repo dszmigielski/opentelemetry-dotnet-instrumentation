@@ -30,13 +30,13 @@
 using System;
 using System.Globalization;
 using System.Reflection;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
 
 #if !HAVE_LINQ
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities
 {
     internal abstract class ReflectionDelegateFactory
     {

@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Serialization
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// Represents a trace writer.

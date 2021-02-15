@@ -1,4 +1,4 @@
-namespace Datadog.Trace.Configuration
+namespace OpenTelemetry.Instrumentation.Configuration
 {
     /// <summary>
     /// String constants for standard Datadog configuration keys.

@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// EventArgs for a Span

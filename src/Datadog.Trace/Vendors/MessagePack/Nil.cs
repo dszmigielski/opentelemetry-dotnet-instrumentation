@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 using System;
 
-namespace Datadog.Trace.Vendors.MessagePack
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack
 {
     internal struct Nil : IEquatable<Nil>
     {
@@ -32,7 +32,7 @@ namespace Datadog.Trace.Vendors.MessagePack
     }
 }
 
-namespace Datadog.Trace.Vendors.MessagePack.Formatters
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters
 {
     internal class NilFormatter : IMessagePackFormatter<Nil>
     {

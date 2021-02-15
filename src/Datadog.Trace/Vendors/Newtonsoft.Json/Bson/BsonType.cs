@@ -27,7 +27,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Bson
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Bson
 {
     internal enum BsonType : sbyte
     {

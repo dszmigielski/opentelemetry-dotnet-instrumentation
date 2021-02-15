@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Threading;
 
-namespace Datadog.Trace.Util
+namespace OpenTelemetry.Instrumentation.Util
 {
     internal static class ProcessHelpers
     {

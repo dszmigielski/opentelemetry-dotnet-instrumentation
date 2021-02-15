@@ -30,7 +30,7 @@
 using System;
 using System.ComponentModel;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json
 {
     /// <summary>
     /// Specifies default value handling options for the <see cref="JsonSerializer"/>.

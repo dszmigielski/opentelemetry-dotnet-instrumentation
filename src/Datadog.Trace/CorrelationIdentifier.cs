@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// An API to access identifying values of the service and the active span

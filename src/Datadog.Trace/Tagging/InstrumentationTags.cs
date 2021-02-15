@@ -1,17 +1,17 @@
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
 
-namespace Datadog.Trace.Tagging
+namespace OpenTelemetry.Instrumentation.Tagging
 {
     internal abstract class InstrumentationTags : CommonTags
     {
         protected static readonly IProperty<string>[] InstrumentationTagsProperties =
             CommonTagsProperties.Concat(
-                new ReadOnlyProperty<InstrumentationTags, string>(Trace.Tags.SpanKind, t => t.SpanKind));
+                new ReadOnlyProperty<InstrumentationTags, string>(Instrumentation.Tags.SpanKind, t => t.SpanKind));
 
         protected static readonly IProperty<double?>[] InstrumentationMetricsProperties =
             CommonMetricsProperties.Concat(
-                new Property<InstrumentationTags, double?>(Trace.Tags.Analytics, t => t.AnalyticsSampleRate, (t, v) => t.AnalyticsSampleRate = v));
+                new Property<InstrumentationTags, double?>(Instrumentation.Tags.Analytics, t => t.AnalyticsSampleRate, (t, v) => t.AnalyticsSampleRate = v));
 
         public abstract string SpanKind { get; }
 

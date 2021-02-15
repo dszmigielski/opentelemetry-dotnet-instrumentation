@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.CompilerServices;
 
-namespace Datadog.Trace.Util
+namespace OpenTelemetry.Instrumentation.Util
 {
     internal static class UriHelpers
     {

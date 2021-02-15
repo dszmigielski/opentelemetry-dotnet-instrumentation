@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Datadog.Trace.Vendors.MessagePack.Internal
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Internal
 {
     internal static class ByteArrayComparer
     {

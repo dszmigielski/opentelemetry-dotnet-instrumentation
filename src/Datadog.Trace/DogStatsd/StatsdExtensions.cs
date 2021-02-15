@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
-using Datadog.Trace.Vendors.StatsdClient;
+using OpenTelemetry.Instrumentation.Vendors.StatsdClient;
 
-namespace Datadog.Trace.DogStatsd
+namespace OpenTelemetry.Instrumentation.DogStatsd
 {
     internal static class StatsdExtensions
     {

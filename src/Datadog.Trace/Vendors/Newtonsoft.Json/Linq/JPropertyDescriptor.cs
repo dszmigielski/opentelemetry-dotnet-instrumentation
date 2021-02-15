@@ -31,7 +31,7 @@
 using System;
 using System.ComponentModel;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a view of a <see cref="JProperty"/>.

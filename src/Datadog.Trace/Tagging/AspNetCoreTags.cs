@@ -1,6 +1,6 @@
-using Datadog.Trace.ExtensionMethods;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
 
-namespace Datadog.Trace.Tagging
+namespace OpenTelemetry.Instrumentation.Tagging
 {
     internal class AspNetCoreTags : WebTags
     {
@@ -8,7 +8,7 @@ namespace Datadog.Trace.Tagging
 
         private static readonly IProperty<string>[] AspNetCoreTagsProperties =
             WebTagsProperties.Concat(
-                new ReadOnlyProperty<AspNetCoreTags, string>(Trace.Tags.InstrumentationName, t => t.InstrumentationName));
+                new ReadOnlyProperty<AspNetCoreTags, string>(Instrumentation.Tags.InstrumentationName, t => t.InstrumentationName));
 
         public string InstrumentationName => ComponentName;
 

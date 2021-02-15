@@ -19,10 +19,10 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Datadog.Trace.Vendors.Serilog.Events;
-using Datadog.Trace.Vendors.Serilog.Rendering;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Rendering;
 
-namespace Datadog.Trace.Vendors.Serilog.Parsing
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Parsing
 {
     /// <summary>
     /// A message template token representing literal text.

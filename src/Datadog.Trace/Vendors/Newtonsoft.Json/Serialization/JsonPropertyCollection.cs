@@ -31,10 +31,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Collections.ObjectModel;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 using System.Globalization;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Serialization
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// A collection of <see cref="JsonProperty"/> objects.

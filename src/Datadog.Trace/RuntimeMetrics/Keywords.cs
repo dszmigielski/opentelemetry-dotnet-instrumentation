@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.RuntimeMetrics
+namespace OpenTelemetry.Instrumentation.RuntimeMetrics
 {
     /// <summary>
     /// Keywords used by the CLR events.

@@ -1,4 +1,4 @@
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// A traces sampling priority determines whether is should be kept and stored.

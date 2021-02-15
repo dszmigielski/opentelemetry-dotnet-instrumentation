@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq.JsonPath
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq.JsonPath
 {
     internal class ScanFilter : PathFilter
     {

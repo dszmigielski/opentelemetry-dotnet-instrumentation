@@ -19,11 +19,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Datadog.Trace.Vendors.Serilog.Debugging;
-using Datadog.Trace.Vendors.Serilog.Events;
-using Datadog.Trace.Vendors.Serilog.Parsing;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Debugging;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Parsing;
 
-namespace Datadog.Trace.Vendors.Serilog.Capturing
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Capturing
 {
     // Performance relevant - on the hot path when creating log events from existing templates.
     class PropertyBinder

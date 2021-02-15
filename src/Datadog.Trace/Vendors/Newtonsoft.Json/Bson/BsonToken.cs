@@ -30,7 +30,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Bson
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Bson
 {
     internal abstract class BsonToken
     {

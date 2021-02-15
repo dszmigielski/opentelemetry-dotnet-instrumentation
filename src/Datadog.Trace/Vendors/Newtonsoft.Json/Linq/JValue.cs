@@ -30,7 +30,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 using System.Globalization;
 #if HAVE_DYNAMIC
 using System.Dynamic;
@@ -40,7 +40,7 @@ using System.Linq.Expressions;
 using System.Numerics;
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a value in JSON (string, integer, date, etc).

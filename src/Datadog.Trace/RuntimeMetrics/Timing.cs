@@ -1,6 +1,6 @@
 using System.Threading;
 
-namespace Datadog.Trace.RuntimeMetrics
+namespace OpenTelemetry.Instrumentation.RuntimeMetrics
 {
     internal class Timing
     {

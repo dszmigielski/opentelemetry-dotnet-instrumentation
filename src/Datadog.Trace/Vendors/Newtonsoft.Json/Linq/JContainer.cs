@@ -33,18 +33,18 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 #endif
 using System.Threading;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 using System.Collections;
 using System.Globalization;
 using System.ComponentModel;
 #if !HAVE_LINQ
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Represents a token that can contain other tokens.

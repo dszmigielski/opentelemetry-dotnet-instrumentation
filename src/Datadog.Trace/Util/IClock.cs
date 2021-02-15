@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.Util
+namespace OpenTelemetry.Instrumentation.Util
 {
     internal interface IClock
     {

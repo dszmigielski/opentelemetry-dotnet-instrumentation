@@ -1,4 +1,4 @@
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     internal static class Metrics
     {

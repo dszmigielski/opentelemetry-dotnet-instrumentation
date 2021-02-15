@@ -1,10 +1,10 @@
 #if NETFRAMEWORK
 using System;
 using System.Linq;
-using Datadog.Trace.Logging;
 using Microsoft.Win32;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     internal partial class FrameworkDescription
     {

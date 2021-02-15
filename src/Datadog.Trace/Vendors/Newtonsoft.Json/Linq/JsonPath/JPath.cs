@@ -31,9 +31,9 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq.JsonPath
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq.JsonPath
 {
     internal class JPath
     {

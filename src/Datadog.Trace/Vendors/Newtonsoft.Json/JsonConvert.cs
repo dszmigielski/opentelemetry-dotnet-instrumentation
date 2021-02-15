@@ -33,11 +33,11 @@ using System.Globalization;
 #if HAVE_BIG_INTEGER
 using System.Numerics;
 #endif
-using Datadog.Trace.Vendors.Newtonsoft.Json.Linq;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 using System.Xml;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Converters;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Converters;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
 using System.Text;
 using System.Diagnostics;
 #if HAVE_XLINQ
@@ -45,7 +45,7 @@ using System.Xml.Linq;
 
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json
 {
     /// <summary>
     /// Provides methods for converting between .NET types and JSON types.

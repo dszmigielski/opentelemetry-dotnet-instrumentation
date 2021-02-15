@@ -19,9 +19,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Core
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Core
 {
     class LevelOverrideMap
     {

@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Vendors.MessagePack.Formatters
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters
 {
     // Note:This implemenataion is 'not' fastest, should more improve.
     internal sealed class EnumAsStringFormatter<T> : IMessagePackFormatter<T>

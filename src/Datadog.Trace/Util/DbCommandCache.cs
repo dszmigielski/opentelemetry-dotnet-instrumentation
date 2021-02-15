@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
 using System.Threading;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Vendors.Serilog;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Vendors.Serilog;
 
-namespace Datadog.Trace.Util
+namespace OpenTelemetry.Instrumentation.Util
 {
     internal static class DbCommandCache
     {

@@ -16,11 +16,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 using System.Reflection;
 
-namespace Datadog.Trace.Vendors.Serilog.Policies
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Policies
 {
     class EnumScalarConversionPolicy : IScalarConversionPolicy
     {

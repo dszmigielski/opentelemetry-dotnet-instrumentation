@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Vendors.Newtonsoft.Json;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json;
 
-namespace Datadog.Trace.Sampling
+namespace OpenTelemetry.Instrumentation.Sampling
 {
     internal class CustomSamplingRule : ISamplingRule
     {

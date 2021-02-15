@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Sampling
+namespace OpenTelemetry.Instrumentation.Sampling
 {
     internal interface ISampler
     {

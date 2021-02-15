@@ -4,10 +4,10 @@
 //------------------------------------------------------------------------------
 using System;
 using System.Threading.Tasks;
-using Datadog.Trace.Vendors.StatsdClient.Statistic;
-using Datadog.Trace.Vendors.StatsdClient.Worker;
+using OpenTelemetry.Instrumentation.Vendors.StatsdClient.Statistic;
+using OpenTelemetry.Instrumentation.Vendors.StatsdClient.Worker;
 
-namespace Datadog.Trace.Vendors.StatsdClient.Bufferize
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient.Bufferize
 {
     /// <summary>
     /// StatsBufferize bufferizes metrics before sending them.

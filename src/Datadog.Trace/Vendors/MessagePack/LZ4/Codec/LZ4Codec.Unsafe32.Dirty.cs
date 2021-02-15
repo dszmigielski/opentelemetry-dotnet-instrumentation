@@ -72,7 +72,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // ReSharper disable TooWideLocalVariableScope
 // ReSharper disable JoinDeclarationAndInitializer
 
-namespace Datadog.Trace.Vendors.MessagePack.LZ4
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.LZ4
 {
     internal static partial class LZ4Codec
     {

@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Util;
 
-namespace Datadog.Trace.PlatformHelpers
+namespace OpenTelemetry.Instrumentation.PlatformHelpers
 {
     /// <summary>
     /// Helper class for gathering metadata about the execution context in Azure App Services.

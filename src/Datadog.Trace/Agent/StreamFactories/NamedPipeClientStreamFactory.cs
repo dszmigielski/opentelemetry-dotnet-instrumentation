@@ -1,7 +1,7 @@
 using System.IO;
 using System.IO.Pipes;
 
-namespace Datadog.Trace.Agent.StreamFactories
+namespace OpenTelemetry.Instrumentation.Agent.StreamFactories
 {
     internal class NamedPipeClientStreamFactory : IStreamFactory
     {

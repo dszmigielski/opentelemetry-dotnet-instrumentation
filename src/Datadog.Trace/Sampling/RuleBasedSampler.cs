@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace.Sampling
+namespace OpenTelemetry.Instrumentation.Sampling
 {
     internal class RuleBasedSampler : ISampler
     {

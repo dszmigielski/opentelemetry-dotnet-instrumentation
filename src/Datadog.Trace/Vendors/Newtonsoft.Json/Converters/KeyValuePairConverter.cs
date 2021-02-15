@@ -29,11 +29,11 @@
 
 using System;
 using System.Collections.Generic;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 using System.Reflection;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Converters
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="KeyValuePair{TKey,TValue}"/> to and from JSON.

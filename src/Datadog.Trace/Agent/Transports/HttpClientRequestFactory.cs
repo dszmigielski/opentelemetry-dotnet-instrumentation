@@ -2,7 +2,7 @@
 using System;
 using System.Net.Http;
 
-namespace Datadog.Trace.Agent.Transports
+namespace OpenTelemetry.Instrumentation.Agent.Transports
 {
     internal class HttpClientRequestFactory : IApiRequestFactory
     {

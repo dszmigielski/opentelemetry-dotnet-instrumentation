@@ -29,7 +29,7 @@
 
 using System;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json
 {
     /// <summary>
     /// Specifies how to treat the time value when converting between string and <see cref="DateTime"/>.

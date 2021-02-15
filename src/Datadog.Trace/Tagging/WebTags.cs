@@ -1,16 +1,16 @@
-using Datadog.Trace.ExtensionMethods;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
 
-namespace Datadog.Trace.Tagging
+namespace OpenTelemetry.Instrumentation.Tagging
 {
     internal class WebTags : InstrumentationTags, IHasStatusCode
     {
         protected static readonly IProperty<string>[] WebTagsProperties =
             InstrumentationTagsProperties.Concat(
-                new Property<WebTags, string>(Trace.Tags.HttpStatusCode, t => t.HttpStatusCode, (t, v) => t.HttpStatusCode = v),
-                new Property<WebTags, string>(Trace.Tags.HttpMethod, t => t.HttpMethod, (t, v) => t.HttpMethod = v),
-                new Property<WebTags, string>(Trace.Tags.HttpRequestHeadersHost, t => t.HttpRequestHeadersHost, (t, v) => t.HttpRequestHeadersHost = v),
-                new Property<WebTags, string>(Trace.Tags.HttpUrl, t => t.HttpUrl, (t, v) => t.HttpUrl = v),
-                new ReadOnlyProperty<WebTags, string>(Trace.Tags.Language, t => t.Language));
+                new Property<WebTags, string>(Instrumentation.Tags.HttpStatusCode, t => t.HttpStatusCode, (t, v) => t.HttpStatusCode = v),
+                new Property<WebTags, string>(Instrumentation.Tags.HttpMethod, t => t.HttpMethod, (t, v) => t.HttpMethod = v),
+                new Property<WebTags, string>(Instrumentation.Tags.HttpRequestHeadersHost, t => t.HttpRequestHeadersHost, (t, v) => t.HttpRequestHeadersHost = v),
+                new Property<WebTags, string>(Instrumentation.Tags.HttpUrl, t => t.HttpUrl, (t, v) => t.HttpUrl = v),
+                new ReadOnlyProperty<WebTags, string>(Instrumentation.Tags.Language, t => t.Language));
 
         public override string SpanKind => SpanKinds.Server;
 

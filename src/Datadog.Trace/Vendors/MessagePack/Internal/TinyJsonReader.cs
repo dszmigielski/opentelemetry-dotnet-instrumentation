@@ -7,7 +7,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-namespace Datadog.Trace.Vendors.MessagePack
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack
 {
     // simple, tiny JSON reader for MessagePackSerializer.FromJson.
     // this is simple, compact and enough fast but not optimized extremely.

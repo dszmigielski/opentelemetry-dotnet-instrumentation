@@ -1,8 +1,8 @@
 using System.Net;
 using System.Threading.Tasks;
-using Datadog.Trace.Agent.MessagePack;
+using OpenTelemetry.Instrumentation.Agent.MessagePack;
 
-namespace Datadog.Trace.Agent.Transports
+namespace OpenTelemetry.Instrumentation.Agent.Transports
 {
     internal class ApiWebRequest : IApiRequest
     {

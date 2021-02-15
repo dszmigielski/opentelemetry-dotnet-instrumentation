@@ -27,7 +27,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq
 {
     /// <summary>
     /// Specifies how duplicate property names are handled when loading JSON.

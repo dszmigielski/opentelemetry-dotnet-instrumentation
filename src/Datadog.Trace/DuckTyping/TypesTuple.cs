@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.DuckTyping
+namespace OpenTelemetry.Instrumentation.DuckTyping
 {
     internal readonly struct TypesTuple : IEquatable<TypesTuple>
     {

@@ -33,7 +33,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 using System;
 
-namespace Datadog.Trace.Vendors.MessagePack.LZ4
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.LZ4
 {
     /// <summary>Unsafe LZ4 codec.</summary>
     internal static partial class LZ4Codec

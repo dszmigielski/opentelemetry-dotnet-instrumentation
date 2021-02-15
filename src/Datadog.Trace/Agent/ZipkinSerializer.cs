@@ -2,12 +2,12 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
 using System.Text;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Vendors.Newtonsoft.Json;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
 
-namespace Datadog.Trace.Agent
+namespace OpenTelemetry.Instrumentation.Agent
 {
     internal class ZipkinSerializer
     {
@@ -84,7 +84,7 @@ namespace Datadog.Trace.Agent
             public string Kind
             {
                 // Per Zipkin convention these are always upper case.
-                get => _span.GetTag(Trace.Tags.SpanKind)?.ToUpperInvariant();
+                get => _span.GetTag(Instrumentation.Tags.SpanKind)?.ToUpperInvariant();
             }
 
             public Dictionary<string, string> LocalEndpoint
@@ -116,7 +116,7 @@ namespace Datadog.Trace.Agent
                 var tags = new Dictionary<string, string>(spanTags.Count);
                 foreach (var entry in spanTags)
                 {
-                    if (!entry.Key.Equals(Trace.Tags.SpanKind))
+                    if (!entry.Key.Equals(Instrumentation.Tags.SpanKind))
                     {
                         tags[entry.Key] = entry.Value;
                     }

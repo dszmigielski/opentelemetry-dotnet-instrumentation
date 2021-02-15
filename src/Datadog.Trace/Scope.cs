@@ -1,6 +1,6 @@
-using Datadog.Trace.Abstractions;
+using OpenTelemetry.Instrumentation.Abstractions;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// A scope is a handle used to manage the concept of an active span.

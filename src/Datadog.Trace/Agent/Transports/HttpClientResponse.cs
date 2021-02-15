@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Datadog.Trace.Agent.Transports
+namespace OpenTelemetry.Instrumentation.Agent.Transports
 {
     internal class HttpClientResponse : IApiResponse
     {

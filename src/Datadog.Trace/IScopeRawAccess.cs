@@ -1,4 +1,4 @@
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// Interface for scope getter and setter access

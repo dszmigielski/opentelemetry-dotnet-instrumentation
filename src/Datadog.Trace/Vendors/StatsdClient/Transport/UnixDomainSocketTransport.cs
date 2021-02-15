@@ -7,7 +7,7 @@ using System.Net.Sockets;
 using System.Threading.Tasks;
 using Mono.Unix;
 
-namespace Datadog.Trace.Vendors.StatsdClient.Transport
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient.Transport
 {
     internal class UnixDomainSocketTransport : ITransport
     {

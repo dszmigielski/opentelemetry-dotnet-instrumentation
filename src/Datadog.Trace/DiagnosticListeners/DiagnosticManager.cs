@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.DiagnosticListeners
+namespace OpenTelemetry.Instrumentation.DiagnosticListeners
 {
     internal sealed class DiagnosticManager : IDiagnosticManager, IObserver<DiagnosticListener>, IDisposable
     {

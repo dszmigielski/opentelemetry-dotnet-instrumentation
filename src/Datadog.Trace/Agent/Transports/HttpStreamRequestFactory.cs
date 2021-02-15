@@ -1,7 +1,7 @@
 using System;
-using Datadog.Trace.HttpOverStreams;
+using OpenTelemetry.Instrumentation.HttpOverStreams;
 
-namespace Datadog.Trace.Agent.Transports
+namespace OpenTelemetry.Instrumentation.Agent.Transports
 {
     internal class HttpStreamRequestFactory : IApiRequestFactory
     {

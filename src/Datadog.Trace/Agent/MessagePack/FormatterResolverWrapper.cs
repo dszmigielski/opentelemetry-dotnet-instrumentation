@@ -1,7 +1,7 @@
-using Datadog.Trace.Vendors.MessagePack;
-using Datadog.Trace.Vendors.MessagePack.Formatters;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters;
 
-namespace Datadog.Trace.Agent.MessagePack
+namespace OpenTelemetry.Instrumentation.Agent.MessagePack
 {
     internal struct FormatterResolverWrapper : IFormatterResolver
     {

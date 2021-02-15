@@ -29,7 +29,7 @@
 
 using System;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json
 {
     /// <summary>
     /// Specifies the state of the <see cref="JsonWriter"/>.

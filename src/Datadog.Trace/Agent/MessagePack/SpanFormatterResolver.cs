@@ -1,8 +1,8 @@
-using Datadog.Trace.Vendors.MessagePack;
-using Datadog.Trace.Vendors.MessagePack.Formatters;
-using Datadog.Trace.Vendors.MessagePack.Resolvers;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Resolvers;
 
-namespace Datadog.Trace.Agent.MessagePack
+namespace OpenTelemetry.Instrumentation.Agent.MessagePack
 {
     internal class SpanFormatterResolver : IFormatterResolver
     {

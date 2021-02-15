@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 using System;
 
-namespace Datadog.Trace.Vendors.StatsdClient.Statistic
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient.Statistic
 {
     /// <summary>
     /// Store the data for an event.

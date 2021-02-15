@@ -1,10 +1,10 @@
-using Datadog.Trace.Agent.StreamFactories;
-using Datadog.Trace.Agent.Transports;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.HttpOverStreams;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Agent.StreamFactories;
+using OpenTelemetry.Instrumentation.Agent.Transports;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.HttpOverStreams;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace.Agent
+namespace OpenTelemetry.Instrumentation.Agent
 {
     internal static class TransportStrategy
     {

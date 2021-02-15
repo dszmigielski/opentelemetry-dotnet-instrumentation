@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.ExtensionMethods
+namespace OpenTelemetry.Instrumentation.ExtensionMethods
 {
     internal static class StringExtensions
     {

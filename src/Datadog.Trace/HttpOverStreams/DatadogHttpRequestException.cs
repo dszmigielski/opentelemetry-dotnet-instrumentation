@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.HttpOverStreams
+namespace OpenTelemetry.Instrumentation.HttpOverStreams
 {
     internal class DatadogHttpRequestException : Exception
     {

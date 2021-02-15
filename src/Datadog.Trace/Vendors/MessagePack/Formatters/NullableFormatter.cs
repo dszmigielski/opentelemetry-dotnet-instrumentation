@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Datadog.Trace.Vendors.MessagePack.Formatters
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters
 {
     internal sealed class NullableFormatter<T> : IMessagePackFormatter<T?>
         where T : struct

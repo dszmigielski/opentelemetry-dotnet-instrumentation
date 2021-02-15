@@ -33,13 +33,13 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Globalization;
 #if !HAVE_LINQ
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
 
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities
 {
     internal interface IWrappedCollection : IList
     {

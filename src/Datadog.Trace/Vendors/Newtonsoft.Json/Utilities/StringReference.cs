@@ -29,7 +29,7 @@
 
 using System;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities
 {
     internal readonly struct StringReference
     {

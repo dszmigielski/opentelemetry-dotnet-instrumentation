@@ -6,7 +6,7 @@ using System;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Datadog.Trace.Vendors.MessagePack.Internal
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Internal
 {
     internal static class ExpressionUtility
     {

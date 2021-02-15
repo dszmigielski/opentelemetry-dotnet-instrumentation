@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Datadog.Trace.Logging;
-using Datadog.Trace.PlatformHelpers;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.PlatformHelpers;
+using OpenTelemetry.Instrumentation.Util;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     internal class TraceContext : ITraceContext
     {

@@ -4,13 +4,13 @@
 //------------------------------------------------------------------------------
 #if NETSTANDARD || NETFRAMEWORK || NETCOREAPP
 
-using Datadog.Trace.Vendors.MessagePack.Formatters;
-using Datadog.Trace.Vendors.MessagePack.Internal;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Internal;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Datadog.Trace.Vendors.MessagePack.Resolvers
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Resolvers
 {
     // MEMO: Not completely implemented.
 

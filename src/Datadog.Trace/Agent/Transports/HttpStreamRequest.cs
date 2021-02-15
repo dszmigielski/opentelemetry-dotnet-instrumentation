@@ -1,11 +1,11 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using Datadog.Trace.Agent.MessagePack;
-using Datadog.Trace.HttpOverStreams;
-using Datadog.Trace.HttpOverStreams.HttpContent;
+using OpenTelemetry.Instrumentation.Agent.MessagePack;
+using OpenTelemetry.Instrumentation.HttpOverStreams;
+using OpenTelemetry.Instrumentation.HttpOverStreams.HttpContent;
 
-namespace Datadog.Trace.Agent.Transports
+namespace OpenTelemetry.Instrumentation.Agent.Transports
 {
     internal class HttpStreamRequest : IApiRequest
     {

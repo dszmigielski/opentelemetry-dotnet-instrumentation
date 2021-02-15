@@ -8,7 +8,7 @@ using System.IO;
 using System.IO.Pipes;
 using System.Threading;
 
-namespace Datadog.Trace.Vendors.StatsdClient.Transport
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient.Transport
 {
     internal class NamedPipeTransport : ITransport
     {

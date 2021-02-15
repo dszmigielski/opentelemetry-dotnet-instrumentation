@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace Datadog.Trace.ExtensionMethods
+namespace OpenTelemetry.Instrumentation.ExtensionMethods
 {
     internal static class DictionaryExtensions
     {

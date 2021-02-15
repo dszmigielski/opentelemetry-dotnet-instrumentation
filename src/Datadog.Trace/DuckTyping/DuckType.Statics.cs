@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace Datadog.Trace.DuckTyping
+namespace OpenTelemetry.Instrumentation.DuckTyping
 {
     /// <summary>
     /// Duck Type

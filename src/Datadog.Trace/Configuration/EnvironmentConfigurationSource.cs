@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.Configuration
+namespace OpenTelemetry.Instrumentation.Configuration
 {
     /// <summary>
     /// Represents a configuration source that

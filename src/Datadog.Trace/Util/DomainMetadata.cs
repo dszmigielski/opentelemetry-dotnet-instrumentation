@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Datadog.Trace.Util
+namespace OpenTelemetry.Instrumentation.Util
 {
     /// <summary>
     /// Dedicated helper class for consistently referencing Process and AppDomain information.

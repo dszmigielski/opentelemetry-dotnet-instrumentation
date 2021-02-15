@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Datadog.Trace.HttpOverStreams
+namespace OpenTelemetry.Instrumentation.HttpOverStreams
 {
     internal class HttpHeaders : IEnumerable<HttpHeaders.HttpHeader>
     {

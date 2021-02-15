@@ -29,13 +29,13 @@
 
 using System;
 using System.Text.RegularExpressions;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Bson;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Bson;
 using System.Globalization;
 using System.Runtime.CompilerServices;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Converters
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Converters
 {
     /// <summary>
     /// Converts a <see cref="Regex"/> to and from JSON and BSON.

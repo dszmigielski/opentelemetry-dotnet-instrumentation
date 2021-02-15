@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// Interface for managing a scope.

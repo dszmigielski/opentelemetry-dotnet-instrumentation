@@ -2,11 +2,11 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Vendors.Newtonsoft.Json;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Linq;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq;
 
-namespace Datadog.Trace.Configuration
+namespace OpenTelemetry.Instrumentation.Configuration
 {
     /// <summary>
     /// Represents a configuration source that retrieves

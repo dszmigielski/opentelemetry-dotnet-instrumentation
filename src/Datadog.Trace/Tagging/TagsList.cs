@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading;
-using Datadog.Trace.Util;
-using Datadog.Trace.Vendors.MessagePack;
+using OpenTelemetry.Instrumentation.Util;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack;
 
-namespace Datadog.Trace.Tagging
+namespace OpenTelemetry.Instrumentation.Tagging
 {
     internal abstract class TagsList : ITags
     {

@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using Datadog.Trace.Agent.MessagePack;
+using OpenTelemetry.Instrumentation.Agent.MessagePack;
 
-namespace Datadog.Trace.Agent
+namespace OpenTelemetry.Instrumentation.Agent
 {
     internal interface IApiRequest
     {

@@ -19,10 +19,10 @@
 using System;
 using System.Globalization;
 using System.IO;
-using Datadog.Trace.Vendors.Serilog.Data;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Data;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Formatting.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Formatting.Json
 {
     /// <summary>
     /// Converts Serilog's structured property value format into JSON.

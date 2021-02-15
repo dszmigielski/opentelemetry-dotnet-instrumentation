@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.Tagging
+namespace OpenTelemetry.Instrumentation.Tagging
 {
     internal interface IProperty<TResult>
     {

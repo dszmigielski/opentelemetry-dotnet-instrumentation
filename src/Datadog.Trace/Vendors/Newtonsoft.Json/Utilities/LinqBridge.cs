@@ -37,9 +37,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities.LinqBridge
 {
   /// <summary>
   /// Provides a set of static (Shared in Visual Basic) methods for 
@@ -3034,7 +3034,7 @@ namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities.LinqBridge
   }
 }
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Serialization
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization
 {
 #pragma warning disable 1591
   internal delegate TResult System.Func<TResult>();

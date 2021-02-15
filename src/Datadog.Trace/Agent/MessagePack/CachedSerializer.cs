@@ -1,9 +1,9 @@
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Datadog.Trace.Vendors.MessagePack;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack;
 
-namespace Datadog.Trace.Agent.MessagePack
+namespace OpenTelemetry.Instrumentation.Agent.MessagePack
 {
     internal class CachedSerializer
     {

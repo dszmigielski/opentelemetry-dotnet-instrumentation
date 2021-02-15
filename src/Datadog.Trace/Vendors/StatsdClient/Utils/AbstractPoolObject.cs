@@ -5,7 +5,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Datadog.Trace.Vendors.StatsdClient.Utils
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient.Utils
 {
     internal abstract class AbstractPoolObject : IDisposable
     {

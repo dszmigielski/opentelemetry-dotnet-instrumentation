@@ -1,8 +1,8 @@
 using System;
 using System.Text;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace.HttpOverStreams
+namespace OpenTelemetry.Instrumentation.HttpOverStreams
 {
     internal abstract class HttpMessage
     {

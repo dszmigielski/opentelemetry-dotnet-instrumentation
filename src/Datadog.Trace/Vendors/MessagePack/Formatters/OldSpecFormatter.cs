@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 using System;
 
-namespace Datadog.Trace.Vendors.MessagePack.Formatters
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters
 {
     /// <summary>
     /// Serialize by .NET native DateTime binary format.

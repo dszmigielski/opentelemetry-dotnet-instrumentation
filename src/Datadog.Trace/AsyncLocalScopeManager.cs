@@ -1,7 +1,7 @@
 using System;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     internal class AsyncLocalScopeManager : ScopeManagerBase
     {

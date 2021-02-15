@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.HttpOverStreams
+namespace OpenTelemetry.Instrumentation.HttpOverStreams
 {
     internal static class DatadogHttpValues
     {

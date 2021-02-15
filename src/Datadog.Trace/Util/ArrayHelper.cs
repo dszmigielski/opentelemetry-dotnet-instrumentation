@@ -1,4 +1,4 @@
-namespace Datadog.Trace.Util
+namespace OpenTelemetry.Instrumentation.Util
 {
     internal static class ArrayHelper
     {

@@ -34,13 +34,13 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Runtime.Serialization.Formatters;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Converters;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Converters;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 using System.Runtime.Serialization;
-using ErrorEventArgs = Datadog.Trace.Vendors.Newtonsoft.Json.Serialization.ErrorEventArgs;
+using ErrorEventArgs = OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization.ErrorEventArgs;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json
 {
     /// <summary>
     /// Serializes and deserializes objects into and from the JSON format.

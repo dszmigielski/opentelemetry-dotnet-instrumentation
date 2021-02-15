@@ -19,9 +19,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Formatting.Display.Obsolete
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Formatting.Display.Obsolete
 {
     [Obsolete("Not used by the current output formatting implementation.")]
     class LogEventPropertyMessageValue : LogEventPropertyValue

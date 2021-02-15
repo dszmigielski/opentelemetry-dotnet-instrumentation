@@ -10,7 +10,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Datadog.Trace.Vendors.StatsdClient
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient
 {
     internal class StatsdUDP
     {

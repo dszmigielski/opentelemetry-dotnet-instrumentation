@@ -17,9 +17,9 @@
 // limitations under the License.
 
 using System;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Core.Enrichers
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Core.Enrichers
 {
     /// <summary>
     /// Adds a new property encricher to the log event.

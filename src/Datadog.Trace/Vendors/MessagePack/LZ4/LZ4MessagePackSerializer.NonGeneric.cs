@@ -10,7 +10,7 @@ using System.Reflection;
 using System.IO;
 using System.Linq.Expressions;
 
-namespace Datadog.Trace.Vendors.MessagePack
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack
 {
     internal static partial class LZ4MessagePackSerializer
     {

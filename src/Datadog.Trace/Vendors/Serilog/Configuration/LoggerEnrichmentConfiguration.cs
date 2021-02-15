@@ -17,11 +17,11 @@
 // limitations under the License.
 
 using System;
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Core.Enrichers;
-using Datadog.Trace.Vendors.Serilog.Enrichers;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core.Enrichers;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Enrichers;
 
-namespace Datadog.Trace.Vendors.Serilog.Configuration
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Configuration
 {
     /// <summary>
     /// Controls enrichment configuration.

@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.Logging
+namespace OpenTelemetry.Instrumentation.Logging
 {
     internal static partial class LibLogExtensions
     {

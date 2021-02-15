@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Datadog.Trace.Headers
+namespace OpenTelemetry.Instrumentation.Headers
 {
     internal class DictionaryHeadersCollection : IHeadersCollection
     {

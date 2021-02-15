@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Configuration
+namespace OpenTelemetry.Instrumentation.Configuration
 {
     /// <summary>
     /// A source of configuration settings, identifiable by a string key.

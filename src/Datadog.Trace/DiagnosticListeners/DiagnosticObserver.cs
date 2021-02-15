@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace.DiagnosticListeners
+namespace OpenTelemetry.Instrumentation.DiagnosticListeners
 {
     internal abstract class DiagnosticObserver : IObserver<KeyValuePair<string, object>>
     {

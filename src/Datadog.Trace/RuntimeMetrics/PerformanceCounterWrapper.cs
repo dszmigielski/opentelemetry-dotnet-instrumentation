@@ -2,9 +2,9 @@
 using System;
 using System.Diagnostics;
 using System.Threading;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace.RuntimeMetrics
+namespace OpenTelemetry.Instrumentation.RuntimeMetrics
 {
     internal class PerformanceCounterWrapper : IDisposable
     {

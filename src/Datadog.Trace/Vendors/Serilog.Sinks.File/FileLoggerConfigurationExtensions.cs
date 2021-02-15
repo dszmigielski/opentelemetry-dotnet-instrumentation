@@ -19,18 +19,18 @@
 using System;
 using System.ComponentModel;
 using System.Text;
-using Datadog.Trace.Vendors.Serilog.Configuration;
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Debugging;
-using Datadog.Trace.Vendors.Serilog.Events;
-using Datadog.Trace.Vendors.Serilog.Formatting;
-using Datadog.Trace.Vendors.Serilog.Formatting.Display;
-using Datadog.Trace.Vendors.Serilog.Formatting.Json;
-using Datadog.Trace.Vendors.Serilog.Sinks.File;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Configuration;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Debugging;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Formatting;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Formatting.Display;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Formatting.Json;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Sinks.File;
 
 // ReSharper disable MethodOverloadWithOptionalParameter
 
-namespace Datadog.Trace.Vendors.Serilog
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog
 {
     /// <summary>Extends <see cref="LoggerConfiguration"/> with methods to add file sinks.</summary>
     internal static class FileLoggerConfigurationExtensions

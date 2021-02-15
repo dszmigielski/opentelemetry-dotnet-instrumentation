@@ -36,7 +36,7 @@ using System.Text;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities
 {
     internal delegate T Creator<T>();
 

@@ -34,7 +34,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq
 {
     internal partial class JRaw
     {

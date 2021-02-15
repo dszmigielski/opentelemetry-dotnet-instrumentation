@@ -17,9 +17,9 @@
 // limitations under the License.
 
 using System;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Core.Sinks
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Core.Sinks
 {
     class RestrictedSink : ILogEventSink, IDisposable
     {

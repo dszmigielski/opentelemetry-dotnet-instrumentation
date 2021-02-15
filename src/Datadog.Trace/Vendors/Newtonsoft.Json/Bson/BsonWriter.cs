@@ -35,11 +35,11 @@ using System.IO;
 using System.Numerics;
 #endif
 using System.Text;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Linq;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq;
 using System.Globalization;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Bson
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Bson
 {
     /// <summary>
     /// Represents a writer that provides a fast, non-cached, forward-only way of generating BSON data.

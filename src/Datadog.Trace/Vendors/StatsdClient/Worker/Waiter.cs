@@ -5,7 +5,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Datadog.Trace.Vendors.StatsdClient.Worker
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient.Worker
 {
     internal class Waiter : IWaiter
     {

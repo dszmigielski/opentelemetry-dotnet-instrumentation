@@ -4,9 +4,9 @@
 //------------------------------------------------------------------------------
 #if !UNITY_WSA
 
-using Datadog.Trace.Vendors.MessagePack.Formatters;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters;
 using System.Linq;
-using Datadog.Trace.Vendors.MessagePack.Internal;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Internal;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -17,7 +17,7 @@ using System.Collections;
 using System.Threading.Tasks;
 #endif
 
-namespace Datadog.Trace.Vendors.MessagePack.Resolvers
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Resolvers
 {
     internal sealed class DynamicGenericResolver : IFormatterResolver
     {
@@ -45,7 +45,7 @@ namespace Datadog.Trace.Vendors.MessagePack.Resolvers
     }
 }
 
-namespace Datadog.Trace.Vendors.MessagePack.Internal
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Internal
 {
     internal static class DynamicGenericResolverGetFormatterHelper
     {

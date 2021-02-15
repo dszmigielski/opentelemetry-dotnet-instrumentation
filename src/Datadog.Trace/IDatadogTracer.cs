@@ -1,8 +1,8 @@
 using System;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Sampling;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Sampling;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     internal interface IDatadogTracer
     {

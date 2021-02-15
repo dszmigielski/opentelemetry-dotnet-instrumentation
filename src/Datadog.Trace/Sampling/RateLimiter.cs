@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Concurrent;
 using System.Threading;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Util;
 
-namespace Datadog.Trace.Sampling
+namespace OpenTelemetry.Instrumentation.Sampling
 {
     internal class RateLimiter : IRateLimiter
     {

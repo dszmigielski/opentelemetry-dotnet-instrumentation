@@ -6,7 +6,7 @@ using System;
 using System.Reflection;
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Vendors.MessagePack.Formatters
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters
 {
     internal sealed class PrimitiveObjectFormatter : IMessagePackFormatter<object>
     {

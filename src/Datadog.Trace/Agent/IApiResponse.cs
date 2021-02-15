@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Datadog.Trace.Agent
+namespace OpenTelemetry.Instrumentation.Agent
 {
     internal interface IApiResponse : IDisposable
     {

@@ -1,8 +1,8 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
-using Datadog.Trace.ExtensionMethods;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
 
-namespace Datadog.Trace.Configuration
+namespace OpenTelemetry.Instrumentation.Configuration
 {
     /// <summary>
     /// A base <see cref="IConfigurationSource"/> implementation

@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 using System.Text;
 
-namespace Datadog.Trace.Vendors.MessagePack
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack
 {
     internal static class StringEncoding
     {

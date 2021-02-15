@@ -1,4 +1,4 @@
-namespace Datadog.Trace.PlatformHelpers
+namespace OpenTelemetry.Instrumentation.PlatformHelpers
 {
     internal enum AzureContext
     {

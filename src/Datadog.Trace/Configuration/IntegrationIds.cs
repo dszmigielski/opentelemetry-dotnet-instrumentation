@@ -1,5 +1,5 @@
 // ReSharper disable InconsistentNaming - Name is used for integration names
-namespace Datadog.Trace.Configuration
+namespace OpenTelemetry.Instrumentation.Configuration
 {
     internal enum IntegrationIds
     {

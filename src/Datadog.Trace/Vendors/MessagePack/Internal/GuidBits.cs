@@ -5,7 +5,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Datadog.Trace.Vendors.MessagePack.Internal
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Internal
 {
     [StructLayout(LayoutKind.Explicit, Pack = 1)]
     internal struct GuidBits

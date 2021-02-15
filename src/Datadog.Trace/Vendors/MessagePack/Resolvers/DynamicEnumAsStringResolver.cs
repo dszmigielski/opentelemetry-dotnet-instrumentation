@@ -4,12 +4,12 @@
 //------------------------------------------------------------------------------
 #if !UNITY_WSA
 
-using Datadog.Trace.Vendors.MessagePack.Formatters;
-using Datadog.Trace.Vendors.MessagePack.Internal;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack.Internal;
 using System;
 using System.Reflection;
 
-namespace Datadog.Trace.Vendors.MessagePack.Resolvers
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Resolvers
 {
     internal sealed class DynamicEnumAsStringResolver : IFormatterResolver
     {

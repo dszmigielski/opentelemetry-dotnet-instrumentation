@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 
-namespace Datadog.Trace.Headers
+namespace OpenTelemetry.Instrumentation.Headers
 {
     internal class WebHeadersCollection : IHeadersCollection
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.Abstractions
+namespace OpenTelemetry.Instrumentation.Abstractions
 {
     internal interface ISpan
     {

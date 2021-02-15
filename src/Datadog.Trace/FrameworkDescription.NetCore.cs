@@ -2,9 +2,9 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     internal partial class FrameworkDescription
     {

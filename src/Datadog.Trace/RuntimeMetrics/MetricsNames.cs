@@ -1,4 +1,4 @@
-namespace Datadog.Trace.RuntimeMetrics
+namespace OpenTelemetry.Instrumentation.RuntimeMetrics
 {
     internal static class MetricsNames
     {

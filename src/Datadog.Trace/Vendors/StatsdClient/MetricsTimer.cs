@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Vendors.StatsdClient
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient
 {
     internal class MetricsTimer : IDisposable
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.DuckTyping
+namespace OpenTelemetry.Instrumentation.DuckTyping
 {
     /// <summary>
     /// Duck copy struct attribute

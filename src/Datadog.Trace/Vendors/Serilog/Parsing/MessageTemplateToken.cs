@@ -19,9 +19,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Parsing
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Parsing
 {
     /// <summary>
     /// An element parsed from a message template string.

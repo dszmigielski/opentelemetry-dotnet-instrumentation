@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.Tagging
+namespace OpenTelemetry.Instrumentation.Tagging
 {
     internal class ReadOnlyProperty<TTags, TResult> : Property<TTags, TResult>
     {

@@ -21,13 +21,13 @@
 using System;
 using System.IO;
 using System.Text;
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Events;
-using Datadog.Trace.Vendors.Serilog.Formatting;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Formatting;
 using System.Threading;
-using Datadog.Trace.Vendors.Serilog.Debugging;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Debugging;
 
-namespace Datadog.Trace.Vendors.Serilog.Sinks.File
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Sinks.File
 {
     /// <summary>
     /// Write log events to a disk file.

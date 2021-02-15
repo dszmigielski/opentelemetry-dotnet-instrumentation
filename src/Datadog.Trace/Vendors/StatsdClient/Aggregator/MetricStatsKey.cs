@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Vendors.StatsdClient.Aggregator
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient.Aggregator
 {
     /// <summary>
     /// Dictionary Key for `MetricStats`.

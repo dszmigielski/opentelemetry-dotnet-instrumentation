@@ -30,7 +30,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Schema
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Schema
 {
     [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
     internal static class JsonSchemaConstants

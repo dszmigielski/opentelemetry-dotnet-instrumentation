@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Datadog.Trace.Tagging
+namespace OpenTelemetry.Instrumentation.Tagging
 {
     internal interface ITags
     {

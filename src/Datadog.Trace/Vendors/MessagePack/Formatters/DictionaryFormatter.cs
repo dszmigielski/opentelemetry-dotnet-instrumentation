@@ -11,7 +11,7 @@ using System.Collections.ObjectModel;
 using System.Collections.Concurrent;
 #endif
 
-namespace Datadog.Trace.Vendors.MessagePack.Formatters
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters
 {
 #if NETSTANDARD || NETFRAMEWORK || NETCOREAPP
 

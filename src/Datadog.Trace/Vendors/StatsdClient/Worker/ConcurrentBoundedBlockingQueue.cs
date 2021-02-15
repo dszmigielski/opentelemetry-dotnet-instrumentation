@@ -5,7 +5,7 @@
 using System;
 using System.Threading;
 
-namespace Datadog.Trace.Vendors.StatsdClient.Worker
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient.Worker
 {
     /// <summary>
     /// ConcurrentBoundedBlockingQueue is the same as ConcurrentBoundedQueue but

@@ -19,10 +19,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Parsing
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Parsing
 {
     /// <summary>
     /// Parses message template strings into sequences of text or property

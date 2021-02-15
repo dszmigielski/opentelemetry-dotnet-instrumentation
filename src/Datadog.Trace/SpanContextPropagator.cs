@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Datadog.Trace.Headers;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Headers;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     internal class SpanContextPropagator
     {

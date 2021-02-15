@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace.PlatformHelpers
+namespace OpenTelemetry.Instrumentation.PlatformHelpers
 {
     /// <summary>
     /// Utility class with methods to interact with container hosts.

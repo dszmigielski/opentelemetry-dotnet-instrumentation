@@ -9,7 +9,7 @@ using System;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Datadog.Trace.Vendors.MessagePack.Formatters
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Formatters
 {
     /// <summary>
     /// Provides general helpers for creating collections (including dictionaries).

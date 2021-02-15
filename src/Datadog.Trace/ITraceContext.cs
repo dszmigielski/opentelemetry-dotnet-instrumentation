@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     internal interface ITraceContext
     {

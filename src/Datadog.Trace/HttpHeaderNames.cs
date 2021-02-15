@@ -1,4 +1,4 @@
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// Names of HTTP headers that can be used tracing inbound or outbound HTTP requests.

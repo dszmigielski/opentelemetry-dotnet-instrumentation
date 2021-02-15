@@ -18,7 +18,7 @@
 
 using System;
 
-namespace Datadog.Trace.Vendors.Serilog.Events
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Events
 {
     /// <summary>
     /// A property associated with a <see cref="LogEvent"/>.

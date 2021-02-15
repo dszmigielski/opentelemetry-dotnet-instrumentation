@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 using System;
 
-namespace Datadog.Trace.Vendors.StatsdClient
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient
 {
     /// <summary>
     /// The advanced configuration options for DogStatsdService.

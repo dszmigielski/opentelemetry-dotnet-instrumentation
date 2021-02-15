@@ -1,6 +1,6 @@
 using System;
 
-namespace Datadog.Trace.Agent
+namespace OpenTelemetry.Instrumentation.Agent
 {
     internal interface IApiRequestFactory
     {

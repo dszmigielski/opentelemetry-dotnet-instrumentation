@@ -2,9 +2,9 @@
 
 using System;
 using System.Net;
-using Datadog.Trace.Headers;
+using OpenTelemetry.Instrumentation.Headers;
 
-namespace Datadog.Trace.ExtensionMethods
+namespace OpenTelemetry.Instrumentation.ExtensionMethods
 {
     /// <summary>
     /// Extension methods for <see cref="WebHeaderCollection"/> objects.

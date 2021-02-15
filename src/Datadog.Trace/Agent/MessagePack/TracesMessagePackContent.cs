@@ -4,9 +4,9 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using Datadog.Trace.Vendors.MessagePack;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack;
 
-namespace Datadog.Trace.Agent.MessagePack
+namespace OpenTelemetry.Instrumentation.Agent.MessagePack
 {
     internal class TracesMessagePackContent : HttpContent
     {

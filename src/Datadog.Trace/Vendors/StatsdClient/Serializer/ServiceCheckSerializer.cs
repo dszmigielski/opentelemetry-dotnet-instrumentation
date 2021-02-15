@@ -5,9 +5,9 @@
 using System;
 using System.Globalization;
 using System.Text;
-using Datadog.Trace.Vendors.StatsdClient.Statistic;
+using OpenTelemetry.Instrumentation.Vendors.StatsdClient.Statistic;
 
-namespace Datadog.Trace.Vendors.StatsdClient
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient
 {
     internal class ServiceCheckSerializer
     {

@@ -3,10 +3,10 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
-using Datadog.Trace.Logging;
 using Microsoft.Win32;
+using OpenTelemetry.Instrumentation.Logging;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     internal partial class FrameworkDescription
     {

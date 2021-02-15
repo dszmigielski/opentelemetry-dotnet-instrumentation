@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 using System;
 
-namespace Datadog.Trace.Vendors.MessagePack.Internal
+namespace OpenTelemetry.Instrumentation.Vendors.MessagePack.Internal
 {
     internal sealed class BufferPool : ArrayPool<byte>
     {

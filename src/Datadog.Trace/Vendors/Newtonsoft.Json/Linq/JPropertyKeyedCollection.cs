@@ -30,9 +30,9 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Linq
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Linq
 {
     internal class JPropertyKeyedCollection : Collection<JToken>
     {

@@ -2,9 +2,9 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Datadog.Trace.Agent.MessagePack;
+using OpenTelemetry.Instrumentation.Agent.MessagePack;
 
-namespace Datadog.Trace.Agent.Transports
+namespace OpenTelemetry.Instrumentation.Agent.Transports
 {
     internal class HttpClientRequest : IApiRequest
     {

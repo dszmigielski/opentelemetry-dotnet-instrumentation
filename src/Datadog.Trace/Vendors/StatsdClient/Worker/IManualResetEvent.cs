@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 using System;
 
-namespace Datadog.Trace.Vendors.StatsdClient.Worker
+namespace OpenTelemetry.Instrumentation.Vendors.StatsdClient.Worker
 {
     internal interface IManualResetEvent
     {

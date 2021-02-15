@@ -31,7 +31,7 @@
 using System.Collections.Generic;
 using System.Dynamic;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities
 {
     internal class DynamicProxy<T>
     {

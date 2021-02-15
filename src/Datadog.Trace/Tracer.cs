@@ -4,20 +4,20 @@ using System.IO;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using Datadog.Trace.Agent;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.DiagnosticListeners;
-using Datadog.Trace.DogStatsd;
-using Datadog.Trace.Logging;
-using Datadog.Trace.PlatformHelpers;
-using Datadog.Trace.RuntimeMetrics;
-using Datadog.Trace.Sampling;
-using Datadog.Trace.Tagging;
-using Datadog.Trace.Util;
-using Datadog.Trace.Vendors.Newtonsoft.Json;
-using Datadog.Trace.Vendors.StatsdClient;
+using OpenTelemetry.Instrumentation.Agent;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.DiagnosticListeners;
+using OpenTelemetry.Instrumentation.DogStatsd;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.PlatformHelpers;
+using OpenTelemetry.Instrumentation.RuntimeMetrics;
+using OpenTelemetry.Instrumentation.Sampling;
+using OpenTelemetry.Instrumentation.Tagging;
+using OpenTelemetry.Instrumentation.Util;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json;
+using OpenTelemetry.Instrumentation.Vendors.StatsdClient;
 
-namespace Datadog.Trace
+namespace OpenTelemetry.Instrumentation
 {
     /// <summary>
     /// The tracer is responsible for creating spans and flushing them to the Datadog agent

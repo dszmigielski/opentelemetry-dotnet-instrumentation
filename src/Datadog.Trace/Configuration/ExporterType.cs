@@ -1,4 +1,4 @@
-namespace Datadog.Trace.Configuration
+namespace OpenTelemetry.Instrumentation.Configuration
 {
     /// <summary>
     /// Enumeration for the available exporter types.

@@ -2,10 +2,10 @@
 using System;
 using System.Diagnostics;
 using System.Linq;
-using Datadog.Trace.Util;
-using Datadog.Trace.Vendors.StatsdClient;
+using OpenTelemetry.Instrumentation.Util;
+using OpenTelemetry.Instrumentation.Vendors.StatsdClient;
 
-namespace Datadog.Trace.RuntimeMetrics
+namespace OpenTelemetry.Instrumentation.RuntimeMetrics
 {
     internal class PerformanceCountersListener : IRuntimeMetricsListener
     {

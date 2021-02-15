@@ -19,14 +19,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Datadog.Trace.Vendors.Serilog.Capturing;
-using Datadog.Trace.Vendors.Serilog.Configuration;
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Core.Enrichers;
-using Datadog.Trace.Vendors.Serilog.Core.Sinks;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Capturing;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Configuration;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core.Enrichers;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core.Sinks;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog
 {
     /// <summary>
     /// Configuration object for creating <see cref="ILogger"/> instances.

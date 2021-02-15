@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
-using Datadog.Trace.Tagging;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation.Tagging;
+using OpenTelemetry.Instrumentation.Util;
 
-namespace Datadog.Trace.ExtensionMethods
+namespace OpenTelemetry.Instrumentation.ExtensionMethods
 {
     /// <summary>
     /// Extension methods for the <see cref="Span"/> class.

@@ -36,14 +36,14 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Xml;
-using Datadog.Trace.Vendors.Newtonsoft.Json.Serialization;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization;
 #if HAVE_XLINQ
 using System.Xml.Linq;
 #endif
-using Datadog.Trace.Vendors.Newtonsoft.Json.Utilities;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities;
 using System.Runtime.CompilerServices;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Converters
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Converters
 {
     #region XmlNodeWrappers
 #if HAVE_XML_DOCUMENT

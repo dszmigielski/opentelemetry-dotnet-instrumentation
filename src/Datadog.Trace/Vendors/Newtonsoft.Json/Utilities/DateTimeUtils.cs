@@ -32,7 +32,7 @@ using System.IO;
 using System.Xml;
 using System.Globalization;
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Utilities
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Utilities
 {
     internal static class DateTimeUtils
     {

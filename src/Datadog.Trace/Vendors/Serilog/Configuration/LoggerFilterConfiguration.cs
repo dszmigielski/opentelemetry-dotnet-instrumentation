@@ -17,11 +17,11 @@
 // limitations under the License.
 
 using System;
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Core.Filters;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core.Filters;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Configuration
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Configuration
 {
     /// <summary>
     /// Controls filter configuration.

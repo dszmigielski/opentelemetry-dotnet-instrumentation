@@ -17,7 +17,7 @@
 // limitations under the License.
 
 using System;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
 #if HASHTABLE
 using System.Collections;
@@ -25,7 +25,7 @@ using System.Collections;
 using System.Collections.Generic;
 #endif
 
-namespace Datadog.Trace.Vendors.Serilog.Core.Pipeline
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Core.Pipeline
 {
     class MessageTemplateCache : IMessageTemplateParser
     {

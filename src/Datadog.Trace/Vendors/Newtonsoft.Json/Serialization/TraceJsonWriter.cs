@@ -34,7 +34,7 @@ using System.IO;
 using System.Numerics;
 #endif
 
-namespace Datadog.Trace.Vendors.Newtonsoft.Json.Serialization
+namespace OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json.Serialization
 {
     internal class TraceJsonWriter : JsonWriter
     {

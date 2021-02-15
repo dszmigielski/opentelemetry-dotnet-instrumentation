@@ -17,9 +17,9 @@
 // limitations under the License.
 
 using System.IO;
-using Datadog.Trace.Vendors.Serilog.Events;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 
-namespace Datadog.Trace.Vendors.Serilog.Formatting
+namespace OpenTelemetry.Instrumentation.Vendors.Serilog.Formatting
 {
     /// <summary>
     /// Formats log events in a textual representation.
