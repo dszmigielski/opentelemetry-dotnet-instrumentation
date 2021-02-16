@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Logging;
 using OpenTracing;
 using OpenTracing.Tag;
+using ISpanContext = OpenTelemetry.Instrumentation.ISpanContext;
 
 namespace Datadog.Trace.OpenTracing
 {

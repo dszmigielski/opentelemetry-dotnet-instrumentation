@@ -6,12 +6,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using Datadog.Trace.ClrProfiler.Emit;
 using Datadog.Trace.ClrProfiler.Helpers;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.DogStatsd;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Tagging;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.DogStatsd;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Tagging;
+using OpenTelemetry.Instrumentation.Util;
 
 namespace Datadog.Trace.ClrProfiler.Integrations
 {

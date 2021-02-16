@@ -1,5 +1,5 @@
 using System.Runtime.CompilerServices;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations.Testing
 {

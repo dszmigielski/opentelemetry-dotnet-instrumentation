@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.DiagnosticListeners;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.DiagnosticListeners;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler
 {

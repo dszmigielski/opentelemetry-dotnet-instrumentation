@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Reflection;
 using System.Threading;
 using Datadog.Trace.ClrProfiler.Helpers;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler.Emit
 {

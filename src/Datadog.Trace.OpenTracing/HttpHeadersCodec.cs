@@ -1,6 +1,7 @@
 using System;
 using System.Globalization;
-using Datadog.Trace.Headers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Headers;
 using OpenTracing.Propagation;
 
 namespace Datadog.Trace.OpenTracing

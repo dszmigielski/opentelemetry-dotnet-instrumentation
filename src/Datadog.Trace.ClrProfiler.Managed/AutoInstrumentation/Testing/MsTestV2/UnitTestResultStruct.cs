@@ -1,5 +1,5 @@
 using System;
-using Datadog.Trace.DuckTyping;
+using OpenTelemetry.Instrumentation.DuckTyping;
 
 namespace Datadog.Trace.ClrProfiler.AutoInstrumentation.Testing.MsTestV2
 {

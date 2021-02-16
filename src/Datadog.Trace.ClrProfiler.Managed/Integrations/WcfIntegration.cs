@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using Datadog.Trace.ClrProfiler.Emit;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Tagging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Tagging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations
 {

@@ -1,6 +1,6 @@
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Tagging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Tagging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations
 {
@@ -8,12 +8,12 @@ namespace Datadog.Trace.ClrProfiler.Integrations
     {
         protected static readonly IProperty<string>[] MongoDbTagsProperties =
             InstrumentationTagsProperties.Concat(
-                new ReadOnlyProperty<MongoDbTags, string>(Trace.Tags.InstrumentationName, t => t.InstrumentationName),
-                new Property<MongoDbTags, string>(Trace.Tags.DbName, t => t.DbName, (t, v) => t.DbName = v),
-                new Property<MongoDbTags, string>(Trace.Tags.MongoDbQuery, t => t.Query, (t, v) => t.Query = v),
-                new Property<MongoDbTags, string>(Trace.Tags.MongoDbCollection, t => t.Collection, (t, v) => t.Collection = v),
-                new Property<MongoDbTags, string>(Trace.Tags.OutHost, t => t.Host, (t, v) => t.Host = v),
-                new Property<MongoDbTags, string>(Trace.Tags.OutPort, t => t.Port, (t, v) => t.Port = v));
+                new ReadOnlyProperty<MongoDbTags, string>(OpenTelemetry.Instrumentation.Tags.InstrumentationName, t => t.InstrumentationName),
+                new Property<MongoDbTags, string>(OpenTelemetry.Instrumentation.Tags.DbName, t => t.DbName, (t, v) => t.DbName = v),
+                new Property<MongoDbTags, string>(OpenTelemetry.Instrumentation.Tags.MongoDbQuery, t => t.Query, (t, v) => t.Query = v),
+                new Property<MongoDbTags, string>(OpenTelemetry.Instrumentation.Tags.MongoDbCollection, t => t.Collection, (t, v) => t.Collection = v),
+                new Property<MongoDbTags, string>(OpenTelemetry.Instrumentation.Tags.OutHost, t => t.Host, (t, v) => t.Host = v),
+                new Property<MongoDbTags, string>(OpenTelemetry.Instrumentation.Tags.OutPort, t => t.Port, (t, v) => t.Port = v));
 
         public override string SpanKind => SpanKinds.Client;
 

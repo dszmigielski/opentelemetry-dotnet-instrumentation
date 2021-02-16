@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Datadog.Trace.Headers;
+using OpenTelemetry.Instrumentation.Headers;
 
 namespace Datadog.Trace.ClrProfiler.AutoInstrumentation.Http.WinHttpHandler
 {

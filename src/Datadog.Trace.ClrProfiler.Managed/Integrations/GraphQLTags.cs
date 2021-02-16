@@ -1,6 +1,6 @@
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Tagging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Tagging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations
 {
@@ -8,11 +8,11 @@ namespace Datadog.Trace.ClrProfiler.Integrations
     {
         protected static readonly IProperty<string>[] GraphQLTagsProperties =
             InstrumentationTagsProperties.Concat(
-                new ReadOnlyProperty<GraphQLTags, string>(Trace.Tags.InstrumentationName, t => t.InstrumentationName),
-                new Property<GraphQLTags, string>(Trace.Tags.GraphQLSource, t => t.Source, (t, v) => t.Source = v),
-                new Property<GraphQLTags, string>(Trace.Tags.GraphQLOperationName, t => t.OperationName, (t, v) => t.OperationName = v),
-                new Property<GraphQLTags, string>(Trace.Tags.GraphQLOperationType, t => t.OperationType, (t, v) => t.OperationType = v),
-                new ReadOnlyProperty<GraphQLTags, string>(Trace.Tags.Language, t => t.Language));
+                new ReadOnlyProperty<GraphQLTags, string>(OpenTelemetry.Instrumentation.Tags.InstrumentationName, t => t.InstrumentationName),
+                new Property<GraphQLTags, string>(OpenTelemetry.Instrumentation.Tags.GraphQLSource, t => t.Source, (t, v) => t.Source = v),
+                new Property<GraphQLTags, string>(OpenTelemetry.Instrumentation.Tags.GraphQLOperationName, t => t.OperationName, (t, v) => t.OperationName = v),
+                new Property<GraphQLTags, string>(OpenTelemetry.Instrumentation.Tags.GraphQLOperationType, t => t.OperationType, (t, v) => t.OperationType = v),
+                new ReadOnlyProperty<GraphQLTags, string>(OpenTelemetry.Instrumentation.Tags.Language, t => t.Language));
 
         public override string SpanKind => SpanKinds.Server;
 

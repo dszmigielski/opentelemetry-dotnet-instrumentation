@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Reflection;
 using Datadog.Trace.Ci;
 using Datadog.Trace.ClrProfiler.Emit;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations.Testing
 {

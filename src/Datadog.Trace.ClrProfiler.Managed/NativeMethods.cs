@@ -1,5 +1,6 @@
 using System;
 using System.Runtime.InteropServices;
+using OpenTelemetry.Instrumentation;
 
 // ReSharper disable MemberHidesStaticFromOuterClass
 namespace Datadog.Trace.ClrProfiler

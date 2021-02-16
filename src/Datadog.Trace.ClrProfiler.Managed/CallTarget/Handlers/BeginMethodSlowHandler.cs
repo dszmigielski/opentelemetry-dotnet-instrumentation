@@ -1,6 +1,7 @@
 using System;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
+using OpenTelemetry.Instrumentation;
 
 namespace Datadog.Trace.ClrProfiler.CallTarget.Handlers
 {

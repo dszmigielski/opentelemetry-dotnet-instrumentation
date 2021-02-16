@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Util;
 
 namespace Datadog.Trace.Ci
 {

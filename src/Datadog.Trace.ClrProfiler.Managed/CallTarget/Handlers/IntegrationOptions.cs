@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.CompilerServices;
-using Datadog.Trace.DuckTyping;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation.DuckTyping;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler.CallTarget.Handlers
 {

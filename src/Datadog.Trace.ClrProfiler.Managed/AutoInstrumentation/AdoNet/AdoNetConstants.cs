@@ -1,5 +1,5 @@
 using System;
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation.Configuration;
 
 namespace Datadog.Trace.ClrProfiler.AutoInstrumentation.AdoNet
 {

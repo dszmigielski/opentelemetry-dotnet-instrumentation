@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.OpenTracing
 {

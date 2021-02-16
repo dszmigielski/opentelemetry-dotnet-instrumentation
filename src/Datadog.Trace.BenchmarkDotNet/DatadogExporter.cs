@@ -6,8 +6,9 @@ using BenchmarkDotNet.Exporters;
 using BenchmarkDotNet.Loggers;
 using BenchmarkDotNet.Reports;
 using Datadog.Trace.Ci;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.BenchmarkDotNet
 {

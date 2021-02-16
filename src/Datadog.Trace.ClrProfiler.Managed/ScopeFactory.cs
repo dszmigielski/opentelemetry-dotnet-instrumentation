@@ -1,11 +1,12 @@
 using System;
 using System.Data;
 using Datadog.Trace.ClrProfiler.Integrations.AdoNet;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Tagging;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Tagging;
+using OpenTelemetry.Instrumentation.Util;
 
 namespace Datadog.Trace.ClrProfiler
 {

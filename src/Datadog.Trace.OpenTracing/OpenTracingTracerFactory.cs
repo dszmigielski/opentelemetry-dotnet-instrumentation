@@ -1,5 +1,6 @@
 using System;
 using System.Net.Http;
+using OpenTelemetry.Instrumentation;
 using OpenTracing;
 
 namespace Datadog.Trace.OpenTracing

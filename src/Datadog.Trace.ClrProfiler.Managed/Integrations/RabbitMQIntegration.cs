@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Datadog.Trace.ClrProfiler.Emit;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.DuckTyping;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Tagging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.DuckTyping;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Tagging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations
 {

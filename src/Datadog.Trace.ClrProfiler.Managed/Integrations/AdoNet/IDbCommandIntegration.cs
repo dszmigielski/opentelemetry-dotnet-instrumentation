@@ -1,7 +1,8 @@
 using System;
 using System.Data;
 using Datadog.Trace.ClrProfiler.Emit;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations.AdoNet
 {

@@ -1,8 +1,9 @@
 using System;
 using System.Runtime.CompilerServices;
 using Datadog.Trace.ClrProfiler.Helpers;
-using Datadog.Trace.DogStatsd;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.DogStatsd;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations
 {

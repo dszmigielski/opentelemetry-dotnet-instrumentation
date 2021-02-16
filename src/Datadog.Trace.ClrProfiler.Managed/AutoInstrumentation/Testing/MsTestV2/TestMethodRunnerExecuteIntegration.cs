@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Reflection;
 using Datadog.Trace.Ci;
 using Datadog.Trace.ClrProfiler.CallTarget;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.DuckTyping;
-using Datadog.Trace.ExtensionMethods;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.DuckTyping;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
 
 namespace Datadog.Trace.ClrProfiler.AutoInstrumentation.Testing.MsTestV2
 {

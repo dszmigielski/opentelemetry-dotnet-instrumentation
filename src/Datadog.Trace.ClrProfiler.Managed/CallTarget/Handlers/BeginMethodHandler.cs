@@ -1,6 +1,9 @@
 using System;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Util;
+
 #pragma warning disable SA1649 // File name must match first type name
 
 namespace Datadog.Trace.ClrProfiler.CallTarget.Handlers
@@ -13,7 +16,7 @@ namespace Datadog.Trace.ClrProfiler.CallTarget.Handlers
         {
             try
             {
-                DynamicMethod dynMethod = IntegrationMapper.CreateBeginMethodDelegate(typeof(TIntegration), typeof(TTarget), Util.ArrayHelper.Empty<Type>());
+                DynamicMethod dynMethod = IntegrationMapper.CreateBeginMethodDelegate(typeof(TIntegration), typeof(TTarget), ArrayHelper.Empty<Type>());
                 if (dynMethod != null)
                 {
                     _invokeDelegate = (InvokeDelegate)dynMethod.CreateDelegate(typeof(InvokeDelegate));

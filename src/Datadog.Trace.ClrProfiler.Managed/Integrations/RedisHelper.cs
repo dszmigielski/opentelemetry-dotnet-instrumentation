@@ -1,7 +1,8 @@
 using System;
 using Datadog.Trace.ClrProfiler.Integrations.StackExchange.Redis;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations
 {

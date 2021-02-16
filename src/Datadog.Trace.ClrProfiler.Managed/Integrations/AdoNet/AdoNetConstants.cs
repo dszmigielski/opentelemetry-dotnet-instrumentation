@@ -1,4 +1,4 @@
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation.Configuration;
 
 namespace Datadog.Trace.ClrProfiler.Integrations.AdoNet
 {

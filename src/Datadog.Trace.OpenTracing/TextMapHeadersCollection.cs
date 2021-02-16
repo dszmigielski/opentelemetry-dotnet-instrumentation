@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Datadog.Trace.Headers;
+using OpenTelemetry.Instrumentation.Headers;
 using OpenTracing.Propagation;
 
 namespace Datadog.Trace.OpenTracing

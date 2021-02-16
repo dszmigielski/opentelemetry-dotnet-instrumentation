@@ -4,8 +4,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Datadog.Trace.ClrProfiler.Emit;
 using Datadog.Trace.ClrProfiler.Helpers;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations
 {
@@ -309,9 +310,9 @@ namespace Datadog.Trace.ClrProfiler.Integrations
             {
                 span.Error = true;
 
-                span.SetTag(Trace.Tags.ErrorMsg, $"{errorCount} error(s)");
-                span.SetTag(Trace.Tags.ErrorType, errorType);
-                span.SetTag(Trace.Tags.ErrorStack, ConstructErrorMessage(executionErrors));
+                span.SetTag(Tags.ErrorMsg, $"{errorCount} error(s)");
+                span.SetTag(Tags.ErrorType, errorType);
+                span.SetTag(Tags.ErrorStack, ConstructErrorMessage(executionErrors));
             }
         }
 

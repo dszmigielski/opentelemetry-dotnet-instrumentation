@@ -1,5 +1,6 @@
 using System;
 using System.Runtime.CompilerServices;
+using OpenTelemetry.Instrumentation;
 
 namespace Datadog.Trace.ClrProfiler.AutoInstrumentation
 {

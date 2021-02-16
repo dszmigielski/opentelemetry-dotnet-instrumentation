@@ -1,7 +1,7 @@
 using System;
 using System.Threading;
 using Datadog.Trace.ClrProfiler.CallTarget;
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation.Configuration;
 
 namespace Datadog.Trace.ClrProfiler.AutoInstrumentation.Http.HttpClientHandler
 {

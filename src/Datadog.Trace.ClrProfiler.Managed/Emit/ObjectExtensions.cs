@@ -2,7 +2,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Reflection;
 using System.Reflection.Emit;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation.Util;
 
 namespace Datadog.Trace.ClrProfiler.Emit
 {

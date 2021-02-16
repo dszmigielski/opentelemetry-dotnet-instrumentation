@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Datadog.Trace.ClrProfiler.Emit;
-using Datadog.Trace.Headers;
+using OpenTelemetry.Instrumentation.Headers;
 
 namespace Datadog.Trace.ClrProfiler.Helpers
 {

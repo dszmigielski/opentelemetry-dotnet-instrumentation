@@ -5,11 +5,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Routing;
 using Datadog.Trace.ClrProfiler.Emit;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Tagging;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Tagging;
+using OpenTelemetry.Instrumentation.Util;
 
 namespace Datadog.Trace.ClrProfiler.Integrations
 {

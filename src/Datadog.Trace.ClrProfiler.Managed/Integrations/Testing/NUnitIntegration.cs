@@ -6,8 +6,9 @@ using System.Reflection;
 using System.Threading;
 using Datadog.Trace.Ci;
 using Datadog.Trace.ClrProfiler.Emit;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
 
 namespace Datadog.Trace.ClrProfiler.Integrations.Testing
 {

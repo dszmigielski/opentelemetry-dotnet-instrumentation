@@ -5,10 +5,11 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using Datadog.Trace.ClrProfiler.Helpers;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.DogStatsd;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.DogStatsd;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Util;
 
 namespace Datadog.Trace.ClrProfiler.Emit
 {

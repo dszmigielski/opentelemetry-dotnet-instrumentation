@@ -1,6 +1,6 @@
 using System;
 using System.Diagnostics;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation.Util;
 
 namespace Datadog.Trace.ClrProfiler.Helpers
 {

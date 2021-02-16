@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using Datadog.Trace.Ci;
-using Datadog.Trace.ExtensionMethods;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
 
 namespace Datadog.Trace.ClrProfiler.AutoInstrumentation.Testing.XUnit
 {

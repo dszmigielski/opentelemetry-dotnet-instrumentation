@@ -1,6 +1,7 @@
 using System;
 using System.Data.Common;
 using Datadog.Trace.ClrProfiler.CallTarget;
+using OpenTelemetry.Instrumentation;
 
 namespace Datadog.Trace.ClrProfiler.AutoInstrumentation.AdoNet
 {

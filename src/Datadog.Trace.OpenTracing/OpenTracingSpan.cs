@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using OpenTelemetry.Instrumentation;
 using OpenTracing;
 using OpenTracing.Tag;
+using Tags = OpenTelemetry.Instrumentation.Tags;
 
 namespace Datadog.Trace.OpenTracing
 {

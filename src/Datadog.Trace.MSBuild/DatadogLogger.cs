@@ -3,10 +3,11 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using Datadog.Trace.Ci;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Vendors.Newtonsoft.Json;
 using Microsoft.Build.Framework;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json;
 
 namespace Datadog.Trace.MSBuild
 {
