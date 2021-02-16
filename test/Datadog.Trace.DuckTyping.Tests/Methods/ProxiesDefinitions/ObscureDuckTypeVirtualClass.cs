@@ -1,3 +1,5 @@
+using OpenTelemetry.Instrumentation.DuckTyping;
+
 namespace Datadog.Trace.DuckTyping.Tests.Methods.ProxiesDefinitions
 {
     public class ObscureDuckTypeVirtualClass

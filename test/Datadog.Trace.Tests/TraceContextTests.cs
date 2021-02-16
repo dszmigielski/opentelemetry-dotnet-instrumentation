@@ -1,5 +1,6 @@
 using System;
 using Moq;
+using OpenTelemetry.Instrumentation;
 using Xunit;
 
 namespace Datadog.Trace.Tests

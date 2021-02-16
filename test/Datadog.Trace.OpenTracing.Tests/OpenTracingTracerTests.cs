@@ -1,11 +1,12 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Datadog.Trace.Agent;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Sampling;
 using Datadog.Trace.TestHelpers;
 using Moq;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Sampling;
 using OpenTracing;
 using OpenTracing.Propagation;
 using Xunit;

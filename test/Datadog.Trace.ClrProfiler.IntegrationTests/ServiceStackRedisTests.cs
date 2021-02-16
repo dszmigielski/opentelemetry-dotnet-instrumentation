@@ -1,8 +1,9 @@
 using System;
 using System.Linq;
 using Datadog.Core.Tools;
-using Datadog.Trace.ExtensionMethods;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
 using Xunit;
 using Xunit.Abstractions;
 

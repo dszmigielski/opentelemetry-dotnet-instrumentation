@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Vendors.Newtonsoft.Json;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Vendors.Newtonsoft.Json;
 using Xunit;
 
 namespace Datadog.Trace.Tests.Configuration

@@ -1,15 +1,11 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Net;
-using System.Net.Http;
 using System.Threading.Tasks;
-using Datadog.Trace.Agent;
-using Datadog.Trace.Agent.MessagePack;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Sampling;
-using Datadog.Trace.TestHelpers.HttpMessageHandlers;
 using Moq;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
+using OpenTelemetry.Instrumentation.Agent.MessagePack;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Sampling;
 using Xunit;
 
 namespace Datadog.Trace.Tests

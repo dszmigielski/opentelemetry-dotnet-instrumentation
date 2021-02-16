@@ -1,5 +1,5 @@
-using Datadog.Trace;
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 using log4net;
 using System;
 using System.Collections.Concurrent;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Tracer = Datadog.Trace.Tracer;
+using Tracer = OpenTelemetry.Instrumentation.Tracer;
 
 namespace TraceContext.InvalidOperationException
 {

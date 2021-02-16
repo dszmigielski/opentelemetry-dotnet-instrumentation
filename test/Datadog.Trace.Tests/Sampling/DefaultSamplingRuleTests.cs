@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
-using Datadog.Trace.Sampling;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Sampling;
 using Xunit;
 
 namespace Datadog.Trace.Tests.Sampling

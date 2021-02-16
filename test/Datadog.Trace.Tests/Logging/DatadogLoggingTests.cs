@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Util;
-using Datadog.Trace.Vendors.Serilog;
-using Datadog.Trace.Vendors.Serilog.Core;
-using Datadog.Trace.Vendors.Serilog.Events;
 using Moq;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Util;
+using OpenTelemetry.Instrumentation.Vendors.Serilog;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Core;
+using OpenTelemetry.Instrumentation.Vendors.Serilog.Events;
 using Xunit;
 
 namespace Datadog.Trace.Tests.Logging

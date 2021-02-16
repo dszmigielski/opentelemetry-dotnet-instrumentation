@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Datadog.Trace.DuckTyping.Tests.Fields.ValueType.ProxiesDefinitions;
+using OpenTelemetry.Instrumentation.DuckTyping;
 using Xunit;
 
 namespace Datadog.Trace.DuckTyping.Tests.Fields.ValueType

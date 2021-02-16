@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using OpenTelemetry.Instrumentation.DuckTyping;
 
 #pragma warning disable SA1201 // Elements must appear in the correct order
 #pragma warning disable SA1202 // Elements must be ordered by access

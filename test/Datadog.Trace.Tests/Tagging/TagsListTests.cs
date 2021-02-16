@@ -2,10 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Datadog.Trace.Agent.MessagePack;
 using Datadog.Trace.ClrProfiler.Integrations.AdoNet;
-using Datadog.Trace.Tagging;
-using Datadog.Trace.Vendors.MessagePack;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent.MessagePack;
+using OpenTelemetry.Instrumentation.Tagging;
+using OpenTelemetry.Instrumentation.Vendors.MessagePack;
 using Xunit;
 
 namespace Datadog.Trace.Tests.Tagging

@@ -1,3 +1,5 @@
+using OpenTelemetry.Instrumentation;
+
 namespace Datadog.Trace.ClrProfiler.IntegrationTests
 {
     public class WebServerSpanExpectation : SpanExpectation

@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Datadog.Trace.Abstractions;
+using OpenTelemetry.Instrumentation.Abstractions;
 
 namespace Datadog.Trace.TestHelpers
 {
@@ -30,9 +30,9 @@ namespace Datadog.Trace.TestHelpers
         {
             Error = true;
 
-            SetTagInternal(Trace.Tags.ErrorMsg, exception.Message);
-            SetTagInternal(Trace.Tags.ErrorStack, exception.StackTrace);
-            SetTagInternal(Trace.Tags.ErrorType, exception.GetType().ToString());
+            SetTagInternal(OpenTelemetry.Instrumentation.Tags.ErrorMsg, exception.Message);
+            SetTagInternal(OpenTelemetry.Instrumentation.Tags.ErrorStack, exception.StackTrace);
+            SetTagInternal(OpenTelemetry.Instrumentation.Tags.ErrorType, exception.GetType().ToString());
         }
 
         private void SetTagInternal(string key, string value)

@@ -1,4 +1,5 @@
 using System;
+using OpenTelemetry.Instrumentation;
 using Xunit;
 
 namespace Datadog.Trace.OpenTracing.Tests

@@ -2,10 +2,10 @@ using System;
 using System.Data;
 using System.Runtime.InteropServices;
 using BenchmarkDotNet.Attributes;
-using Datadog.Trace;
 using Datadog.Trace.ClrProfiler.Emit;
 using Datadog.Trace.ClrProfiler.Integrations.AdoNet;
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 
 namespace Benchmarks.Trace
 {

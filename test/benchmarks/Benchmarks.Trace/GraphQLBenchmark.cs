@@ -2,12 +2,12 @@ using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using BenchmarkDotNet.Attributes;
-using Datadog.Trace;
 using Datadog.Trace.ClrProfiler.Emit;
 using Datadog.Trace.ClrProfiler.Integrations;
-using Datadog.Trace.Configuration;
 using GraphQL;
 using GraphQL.Execution;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 
 namespace Benchmarks.Trace
 {

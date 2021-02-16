@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Logging.LogProviders;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Logging.LogProviders;
 using Serilog;
 using Serilog.Events;
 using Xunit;

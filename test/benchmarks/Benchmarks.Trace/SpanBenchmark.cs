@@ -1,8 +1,8 @@
 using BenchmarkDotNet.Attributes;
-using Datadog.Trace;
 using Datadog.Trace.BenchmarkDotNet;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
 
 namespace Benchmarks.Trace
 {

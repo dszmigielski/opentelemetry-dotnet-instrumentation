@@ -1,5 +1,5 @@
 using System.Collections.Specialized;
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation.Configuration;
 using Xunit;
 
 namespace Datadog.Trace.Tests.Configuration

@@ -1,6 +1,7 @@
-using Datadog.Trace.Agent;
-using Datadog.Trace.Configuration;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
+using OpenTelemetry.Instrumentation.Configuration;
 using Xunit;
 
 namespace Datadog.Trace.IntegrationTests

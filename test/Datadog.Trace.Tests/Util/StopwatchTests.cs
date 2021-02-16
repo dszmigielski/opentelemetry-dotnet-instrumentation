@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Reflection;
 using System.Threading;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation.Util;
 using Xunit;
 
 namespace Datadog.Trace.Tests.Util

@@ -1,8 +1,9 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Datadog.Trace.Sampling;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Sampling;
+using OpenTelemetry.Instrumentation.Util;
 using Xunit;
 
 namespace Datadog.Trace.Tests.Sampling

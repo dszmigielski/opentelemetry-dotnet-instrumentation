@@ -1,11 +1,11 @@
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation.Configuration;
 using log4net;
 using System;
 using System.Collections.Concurrent;
 using System.Linq;
 using System.Threading;
 using log4net.Core;
-using Tracer = Datadog.Trace.Tracer;
+using Tracer = OpenTelemetry.Instrumentation.Tracer;
 
 namespace DataDogThreadTest
 {

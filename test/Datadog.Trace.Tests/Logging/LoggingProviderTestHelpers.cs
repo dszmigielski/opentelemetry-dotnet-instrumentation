@@ -2,11 +2,12 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using Datadog.Trace.Agent;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Sampling;
 using Moq;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Sampling;
 using Serilog.Formatting.Display;
 using Xunit;
 

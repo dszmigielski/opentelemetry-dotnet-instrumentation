@@ -1,10 +1,11 @@
 using System.Collections.Generic;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Logging.LogProviders;
 using NLog;
 using NLog.Config;
 using NLog.Layouts;
 using NLog.Targets;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Logging.LogProviders;
 using Xunit;
 
 namespace Datadog.Trace.Tests.Logging

@@ -1,9 +1,10 @@
 using System;
 using System.Threading.Tasks;
 using Datadog.Core.Tools;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.PlatformHelpers;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.PlatformHelpers;
 using Xunit;
 using Xunit.Abstractions;
 

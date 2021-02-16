@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
 using System.Threading;
-using Datadog.Trace;
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 
 namespace Samples.RateLimiter
 {

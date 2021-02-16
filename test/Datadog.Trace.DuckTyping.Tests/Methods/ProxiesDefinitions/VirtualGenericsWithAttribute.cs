@@ -1,4 +1,5 @@
 using System;
+using OpenTelemetry.Instrumentation.DuckTyping;
 
 namespace Datadog.Trace.DuckTyping.Tests.Methods.ProxiesDefinitions
 {

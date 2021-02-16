@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using Datadog.Trace.ExtensionMethods;
 using MsgPack;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
 using Xunit;
 
 namespace Datadog.Trace.TestHelpers

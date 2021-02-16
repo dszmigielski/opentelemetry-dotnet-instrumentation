@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
 
 namespace Datadog.Trace.ClrProfiler.IntegrationTests
 {

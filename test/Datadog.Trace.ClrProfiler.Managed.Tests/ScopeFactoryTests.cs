@@ -4,13 +4,14 @@ using System.Collections.Specialized;
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
-using Datadog.Trace.Agent;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Sampling;
-using Datadog.Trace.Util;
 using Moq;
 using MySql.Data.MySqlClient;
 using Npgsql;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Sampling;
+using OpenTelemetry.Instrumentation.Util;
 using Xunit;
 
 namespace Datadog.Trace.ClrProfiler.Managed.Tests

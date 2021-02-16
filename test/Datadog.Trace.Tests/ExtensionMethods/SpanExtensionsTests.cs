@@ -1,9 +1,10 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Data;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Util;
 using Moq;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Util;
 using Xunit;
 
 namespace Datadog.Trace.Tests.ExtensionMethods

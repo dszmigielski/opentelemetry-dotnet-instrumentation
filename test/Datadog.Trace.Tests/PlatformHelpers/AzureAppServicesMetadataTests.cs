@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Datadog.Trace.PlatformHelpers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.PlatformHelpers;
 using Xunit;
 using Xunit.Sdk;
 
@@ -209,10 +210,10 @@ namespace Datadog.Trace.Tests.PlatformHelpers
                 vars.Remove(AzureAppServices.InstanceNameKey);
             }
 
-            if (!vars.Contains(Datadog.Trace.Configuration.ConfigurationKeys.ApiKey))
+            if (!vars.Contains(OpenTelemetry.Instrumentation.Configuration.ConfigurationKeys.ApiKey))
             {
                 // This is a needed configuration for the AAS extension
-                vars.Add(Datadog.Trace.Configuration.ConfigurationKeys.ApiKey, "1");
+                vars.Add(OpenTelemetry.Instrumentation.Configuration.ConfigurationKeys.ApiKey, "1");
             }
 
             vars.Add(AzureAppServices.AzureAppServicesContextKey, "1");

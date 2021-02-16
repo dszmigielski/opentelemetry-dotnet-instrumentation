@@ -6,8 +6,9 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using Datadog.Core.Tools;
-using Datadog.Trace.Configuration;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 using Xunit.Abstractions;
 
 namespace Datadog.Trace.ClrProfiler.IntegrationTests.AspNetCore

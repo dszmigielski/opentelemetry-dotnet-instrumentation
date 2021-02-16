@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Datadog.Trace.RuntimeMetrics;
-using Datadog.Trace.Vendors.StatsdClient;
 using Moq;
+using OpenTelemetry.Instrumentation.RuntimeMetrics;
+using OpenTelemetry.Instrumentation.Vendors.StatsdClient;
 using Xunit;
 
 namespace Datadog.Trace.Tests.RuntimeMetrics

@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Datadog.Trace;
 using Datadog.Trace.ClrProfiler;
+using OpenTelemetry.Instrumentation;
 
 namespace HttpMessageHandler.StackOverflowException
 {

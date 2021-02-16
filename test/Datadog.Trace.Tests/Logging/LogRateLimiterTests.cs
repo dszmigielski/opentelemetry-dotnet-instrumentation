@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Datadog.Trace.Logging;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation.Logging;
+using OpenTelemetry.Instrumentation.Util;
 using Xunit;
 
 namespace Datadog.Trace.Tests.Logging

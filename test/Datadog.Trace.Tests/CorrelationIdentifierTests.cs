@@ -1,10 +1,7 @@
 using System;
 using System.Reflection;
-using Datadog.Trace.Agent;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Sampling;
-using Datadog.Trace.TestHelpers;
-using Moq;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 using Xunit;
 using Xunit.Sdk;
 

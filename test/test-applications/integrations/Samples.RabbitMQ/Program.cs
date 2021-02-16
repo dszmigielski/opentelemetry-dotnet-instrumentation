@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 using System.Threading;
-using Datadog.Trace;
+using OpenTelemetry.Instrumentation;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 

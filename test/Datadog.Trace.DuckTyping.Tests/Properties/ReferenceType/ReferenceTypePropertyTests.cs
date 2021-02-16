@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Datadog.Trace.DuckTyping.Tests.Properties.ReferenceType.ProxiesDefinitions;
+using OpenTelemetry.Instrumentation.DuckTyping;
 using Xunit;
 
 namespace Datadog.Trace.DuckTyping.Tests.Properties.ReferenceType

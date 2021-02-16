@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using Datadog.Trace;
+using OpenTelemetry.Instrumentation;
 
 namespace Samples.FakeAzureAppServices
 {

@@ -4,8 +4,9 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Datadog.Trace.Agent.MessagePack;
-using Datadog.Trace.Agent.Transports;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent.MessagePack;
+using OpenTelemetry.Instrumentation.Agent.Transports;
 using Xunit;
 
 namespace Datadog.Trace.Tests

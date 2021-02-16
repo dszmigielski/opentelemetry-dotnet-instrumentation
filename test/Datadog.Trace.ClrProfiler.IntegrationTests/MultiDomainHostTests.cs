@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Datadog.Core.Tools;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
 using Xunit;
 using Xunit.Abstractions;
 

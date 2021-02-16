@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using Datadog.Core.Tools;
 using Datadog.Trace.ClrProfiler.IntegrationTests.Helpers;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
 using Xunit;
 using Xunit.Abstractions;
 

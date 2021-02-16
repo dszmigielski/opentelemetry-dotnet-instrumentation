@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using OpenTelemetry.Instrumentation;
 using Xunit;
 using Xunit.Abstractions;
 

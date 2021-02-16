@@ -1,8 +1,9 @@
 using System;
-using Datadog.Trace.Agent;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.Sampling;
 using Moq;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.Sampling;
 using OpenTracing;
 using Xunit;
 

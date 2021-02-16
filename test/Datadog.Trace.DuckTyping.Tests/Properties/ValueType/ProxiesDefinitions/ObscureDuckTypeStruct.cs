@@ -1,3 +1,5 @@
+using OpenTelemetry.Instrumentation.DuckTyping;
+
 namespace Datadog.Trace.DuckTyping.Tests.Properties.ValueType.ProxiesDefinitions
 {
 #pragma warning disable 649

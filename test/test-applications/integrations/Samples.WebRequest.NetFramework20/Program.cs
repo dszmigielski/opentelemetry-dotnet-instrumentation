@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Datadog.Core.Tools;
-using Datadog.Trace;
+using OpenTelemetry.Instrumentation;
 
 namespace Samples.WebRequest.NetFramework20
 {

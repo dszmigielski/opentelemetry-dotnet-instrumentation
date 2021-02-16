@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using OpenTelemetry.Instrumentation.DuckTyping;
 using Xunit;
 
 #pragma warning disable SA1201 // Elements must appear in the correct order

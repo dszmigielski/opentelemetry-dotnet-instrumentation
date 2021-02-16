@@ -2,12 +2,12 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 using BenchmarkDotNet.Attributes;
-using Datadog.Trace;
-using Datadog.Trace.Agent;
-using Datadog.Trace.Agent.MessagePack;
-using Datadog.Trace.Agent.Transports;
 using Datadog.Trace.BenchmarkDotNet;
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
+using OpenTelemetry.Instrumentation.Agent.MessagePack;
+using OpenTelemetry.Instrumentation.Agent.Transports;
+using OpenTelemetry.Instrumentation.Configuration;
 
 namespace Benchmarks.Trace
 {

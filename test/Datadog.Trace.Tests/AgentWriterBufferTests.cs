@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Datadog.Trace.Agent;
+using OpenTelemetry.Instrumentation.Agent;
 using Xunit;
 
 namespace Datadog.Trace.Tests

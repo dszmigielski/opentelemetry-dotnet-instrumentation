@@ -3,10 +3,10 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using BenchmarkDotNet.Attributes;
-using Datadog.Trace;
 using Datadog.Trace.ClrProfiler.Emit;
 using Datadog.Trace.ClrProfiler.Integrations;
-using Datadog.Trace.Configuration;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 using ServiceStack.Redis;
 
 namespace Benchmarks.Trace

@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Datadog.Trace;
+using OpenTelemetry.Instrumentation;
 
 namespace Samples.HttpMessageHandler
 {

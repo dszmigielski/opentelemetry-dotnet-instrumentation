@@ -1,4 +1,6 @@
-﻿namespace Datadog.Trace.DuckTyping.Tests.Properties.ValueType.ProxiesDefinitions
+﻿using OpenTelemetry.Instrumentation.DuckTyping;
+
+namespace Datadog.Trace.DuckTyping.Tests.Properties.ValueType.ProxiesDefinitions
 {
     public interface IStructDuckType : IDuckType
     {

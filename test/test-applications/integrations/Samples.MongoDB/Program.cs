@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Datadog.Trace;
 using Datadog.Trace.ClrProfiler;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDB.Driver.Core.Clusters;
 using MongoDB.Driver.Core.Servers;
+using OpenTelemetry.Instrumentation;
 
 namespace Samples.MongoDB
 {

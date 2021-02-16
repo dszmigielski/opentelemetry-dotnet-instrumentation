@@ -4,7 +4,7 @@ using System.IO;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Datadog.Trace;
+using OpenTelemetry.Instrumentation;
 
 namespace Samples.WebRequest
 {

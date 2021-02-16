@@ -3,10 +3,10 @@ using System.Collections.Specialized;
 using System.Globalization;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Headers;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Headers;
 using Xunit;
 
 namespace Datadog.Trace.Tests

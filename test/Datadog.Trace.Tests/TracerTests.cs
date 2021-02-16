@@ -11,13 +11,14 @@ using System.Security.Policy;
 #endif
 using System.Threading;
 using System.Threading.Tasks;
-using Datadog.Trace.Agent;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.ExtensionMethods;
-using Datadog.Trace.Headers;
-using Datadog.Trace.Sampling;
 using Datadog.Trace.TestHelpers;
 using Moq;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.ExtensionMethods;
+using OpenTelemetry.Instrumentation.Headers;
+using OpenTelemetry.Instrumentation.Sampling;
 using Xunit;
 
 namespace Datadog.Trace.Tests

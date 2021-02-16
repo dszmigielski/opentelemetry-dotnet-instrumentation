@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Datadog.Core.Tools;
-using Datadog.Trace.Configuration;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 using Xunit;
 using Xunit.Abstractions;
 

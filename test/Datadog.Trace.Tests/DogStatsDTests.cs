@@ -3,11 +3,12 @@ using System.Collections.Immutable;
 using System.Linq;
 using System.Threading;
 using Datadog.Core.Tools;
-using Datadog.Trace.Configuration;
-using Datadog.Trace.DogStatsd;
 using Datadog.Trace.TestHelpers;
-using Datadog.Trace.Vendors.StatsdClient;
 using Moq;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
+using OpenTelemetry.Instrumentation.DogStatsd;
+using OpenTelemetry.Instrumentation.Vendors.StatsdClient;
 using Xunit;
 using Xunit.Abstractions;
 

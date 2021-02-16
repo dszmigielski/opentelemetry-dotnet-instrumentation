@@ -6,15 +6,15 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 using BenchmarkDotNet.Attributes;
-using Datadog.Trace;
 using Datadog.Trace.ClrProfiler.Emit;
 using Datadog.Trace.ClrProfiler.Integrations;
-using Datadog.Trace.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 
 namespace Benchmarks.Trace
 {

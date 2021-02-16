@@ -1,8 +1,9 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Datadog.Trace.Agent;
 using Moq;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
 using Xunit;
 
 namespace Datadog.Trace.Tests

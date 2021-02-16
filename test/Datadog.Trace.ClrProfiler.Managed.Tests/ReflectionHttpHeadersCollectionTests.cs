@@ -3,8 +3,9 @@ using System.Globalization;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using Datadog.Trace.ClrProfiler.Helpers;
-using Datadog.Trace.Headers;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Headers;
 using Xunit;
 
 namespace Datadog.Trace.ClrProfiler.Managed.Tests

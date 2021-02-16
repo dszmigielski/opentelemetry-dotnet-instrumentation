@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using Datadog.Trace.Ci;
 using Newtonsoft.Json;
+using OpenTelemetry.Instrumentation;
 using Xunit;
 
 namespace Datadog.Trace.ClrProfiler.IntegrationTests.CI

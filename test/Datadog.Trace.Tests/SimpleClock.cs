@@ -1,5 +1,5 @@
 using System;
-using Datadog.Trace.Util;
+using OpenTelemetry.Instrumentation.Util;
 
 namespace Datadog.Trace.Tests
 {

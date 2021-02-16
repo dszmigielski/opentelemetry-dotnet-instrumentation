@@ -5,8 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Datadog.Core.Tools;
-using Datadog.Trace.Configuration;
 using Datadog.Trace.TestHelpers;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Configuration;
 using Xunit;
 using Xunit.Abstractions;
 

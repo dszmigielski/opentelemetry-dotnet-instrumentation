@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
-using Datadog.Trace;
-using Datadog.Trace.Agent;
+using OpenTelemetry.Instrumentation;
+using OpenTelemetry.Instrumentation.Agent;
 
 namespace Benchmarks.Trace
 {

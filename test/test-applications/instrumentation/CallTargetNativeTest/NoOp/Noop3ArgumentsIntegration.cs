@@ -1,6 +1,6 @@
 using System;
 using Datadog.Trace.ClrProfiler.CallTarget;
-using Datadog.Trace.DuckTyping;
+using OpenTelemetry.Instrumentation.DuckTyping;
 
 namespace CallTargetNativeTest.NoOp
 {

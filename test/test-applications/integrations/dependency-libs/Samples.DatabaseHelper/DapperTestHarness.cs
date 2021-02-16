@@ -5,7 +5,7 @@ using System.Data.Common;
 using System.Linq;
 using System.Threading.Tasks;
 using Dapper;
-using Datadog.Trace;
+using OpenTelemetry.Instrumentation;
 
 namespace Samples.DatabaseHelper
 {
