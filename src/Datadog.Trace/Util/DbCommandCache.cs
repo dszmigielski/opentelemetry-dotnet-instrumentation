@@ -4,7 +4,6 @@ using System.Data;
 using System.Data.Common;
 using System.Threading;
 using OpenTelemetry.Instrumentation.Logging;
-using OpenTelemetry.Instrumentation.Vendors.Serilog;
 
 namespace OpenTelemetry.Instrumentation.Util
 {
@@ -12,7 +11,7 @@ namespace OpenTelemetry.Instrumentation.Util
     {
         internal const int MaxConnectionStrings = 100;
 
-        private static readonly ILogger Log = DatadogLogging.GetLogger(typeof(DbCommandCache));
+        private static readonly IDatadogLogger Log = DatadogLogging.GetLoggerFor(typeof(DbCommandCache));
 
         private static ConcurrentDictionary<string, KeyValuePair<string, string>[]> _cache
             = new ConcurrentDictionary<string, KeyValuePair<string, string>[]>();

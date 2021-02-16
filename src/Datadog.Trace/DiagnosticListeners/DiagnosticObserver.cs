@@ -8,7 +8,7 @@ namespace OpenTelemetry.Instrumentation.DiagnosticListeners
 {
     internal abstract class DiagnosticObserver : IObserver<KeyValuePair<string, object>>
     {
-        private static readonly Vendors.Serilog.ILogger Log = DatadogLogging.For<DiagnosticObserver>();
+        private static readonly IDatadogLogger Log = DatadogLogging.GetLoggerFor<DiagnosticObserver>();
 
         /// <summary>
         /// Gets the name of the <see cref="DiagnosticListener"/> that should be instrumented.

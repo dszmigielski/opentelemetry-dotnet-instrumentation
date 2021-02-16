@@ -14,7 +14,7 @@ namespace OpenTelemetry.Instrumentation.Configuration
     /// </summary>
     public class JsonConfigurationSource : IConfigurationSource
     {
-        private static readonly Vendors.Serilog.ILogger Log = DatadogLogging.GetLogger(typeof(JsonConfigurationSource));
+        private static readonly IDatadogLogger Log = DatadogLogging.GetLoggerFor(typeof(JsonConfigurationSource));
 
         private readonly JObject _configuration;
 

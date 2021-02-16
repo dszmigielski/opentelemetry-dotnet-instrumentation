@@ -110,6 +110,11 @@ namespace OpenTelemetry.Instrumentation
         public const string AspNetAction = "aspnet.action";
 
         /// <summary>
+        /// The MVC or Web API area name.
+        /// </summary>
+        public const string AspNetArea = "aspnet.area";
+
+        /// <summary>
         /// The hostname of a outgoing server connection.
         /// </summary>
         public const string OutHost = "out.host";
